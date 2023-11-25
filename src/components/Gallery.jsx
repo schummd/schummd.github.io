@@ -13,6 +13,8 @@ function Gallery ({ name }) {
 	importAll(require.context('../assets/collections', false, /\.jpg/));
 	const images = Object.entries(cache).map(module => module[1]);
 
+	console.log(typeof cache);
+
 	return (
 		<>
 			<Box

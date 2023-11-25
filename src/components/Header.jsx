@@ -141,8 +141,8 @@ export default function Header (props) {
       <List>
 				<ListItem><DrawerNavButton onClick={() => navigate('/collections')} disableRipple='true'><p>Collections</p></DrawerNavButton></ListItem>
 				<ListItem><DrawerNavButton onClick={() => navigate('/about')} disableRipple='true'><p>About</p></DrawerNavButton></ListItem>
-				<ListItem><DrawerNavButton onClick={() => navigate('/about')} disableRipple='true'><p>Blog</p></DrawerNavButton></ListItem>
-				<ListItem><DrawerNavButton onClick={() => navigate('/contact')} disableRipple='true'><p>Contact</p></DrawerNavButton></ListItem>
+				{/* <ListItem><DrawerNavButton onClick={() => navigate('/about')} disableRipple='true'><p>Blog</p></DrawerNavButton></ListItem> */}
+				{/* <ListItem><DrawerNavButton onClick={() => navigate('/contact')} disableRipple='true'><p>Contact</p></DrawerNavButton></ListItem> */}
       </List>
 
     </Box>
@@ -196,17 +196,17 @@ export default function Header (props) {
 							<NavButton onClick={() => handleClick('about')} disableRipple='true'><p>About</p></NavButton>
 						}
 
-						{
+						{/* {
 							activeLink === 'blog' ?
 							<NavButtonActive onClick={() => handleClick('blog')} disableRipple='true'><p>Blog</p></NavButtonActive> :
 							<NavButton onClick={() => handleClick('blog')} disableRipple='true'><p>Blog</p></NavButton>
-						}
+						} */}
 
-						{
+						{/* {
 							activeLink === 'contact' ?
 							<NavButtonActive onClick={() => handleClick('contact')} disableRipple='true'><p>Contact</p></NavButtonActive> :
 							<NavButton onClick={() => handleClick('contact')} disableRipple='true'><p>Contact</p></NavButton>
-						}
+						} */}
 					</Box>
 
 				</Toolbar>
