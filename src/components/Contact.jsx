@@ -8,8 +8,13 @@ import Link from '@mui/material/Link';
 import TextField from '@mui/material/TextField';
 import Typography from '@mui/material/Typography';
 
+import Alert from '@mui/material/Alert';
+import CheckIcon from '@mui/icons-material/Check';
+
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import { StylesContext } from '@mui/styles';
+
+import emailjs from '@emailjs/browser';
 
 // import { serverQuery } from '../utilities/helpers';
 
@@ -92,6 +97,14 @@ const validateEmail = (email) => {
   return emailRegex.test(email);
 }
 
+const displayAlert = () => {
+  return (
+    <Alert icon={<CheckIcon fontSize="inherit" />} severity="success">
+      The message was sent successfully.
+    </Alert>
+  )
+}
+
 function Contact () {
   const navigate = useNavigate();
 
@@ -99,6 +112,8 @@ function Contact () {
   const [lastError, setLastError] = React.useState(false);
   const [emailError, setEmailError] = React.useState('');
   const [messageError, setMessageError] = React.useState(false);
+
+  const [formState, setFormState] = React.useState(false);
 
   const handleSubmit = async (event) => {
     event.preventDefault();
@@ -110,6 +125,9 @@ function Contact () {
       lastName: data.get('lastName', '').toString(),
 			message: data.get('message', '').toString(),
     };
+
+    // const value = Object.fromEntries(data.entries());
+    // console.log('value', value);
 
     let error = false;
 
@@ -132,15 +150,31 @@ function Contact () {
     }
     if (error) return;
 
-    // serverQuery('POST', '/admin/auth/register', (response) => {
-    //   // store token and login user, automatically login
-    //   localStorage.setItem('logout', JSON.stringify(true));
-    //   localStorage.setItem('token', response.token);
-    //   navigate('/admin/dashboard');
-    // }, user, () => {
-    //   setEmailError('Email already in use');
-    // });
+    emailjs.sendForm('service_pxs4h07', 'template_qs2x30y', event.currentTarget, { publicKey: 'fbuDiw0NsG1Tb8d6k' })
+    .then((response) => {
+            console.log('success!', response.status, response.text);
+            // display success notification
+            setFormState(true);
+            // displayAlert();
+          },
+          (err) => {
+            console.log('failed...', err)
+            // display error notification
+            setFormState(false);
+          });
+
+    // resent the whole form
+    event.currentTarget.reset();
   };
+
+  // listens to a click anywhere on the page and removes the success alert
+  // TODO: change to respond only to a click within the form !
+  React.useEffect(() => {
+    const handleClick = (event) => {
+      setFormState(false);
+    }
+    document.addEventListener('mousedown', handleClick);
+  }, []);
 
 	return (
 		<Box
@@ -156,7 +190,6 @@ function Contact () {
         sx={{
           fontSize: '28px',
           marginBottom: '0px',
-          // textTransform: 'uppercase',
           fontWeight: '300',
         }}
       >
@@ -247,12 +280,17 @@ function Contact () {
           sx={{ backgroundColor: '', width: '100%' }}
         >
           <NavButton
+            type='submit'
             disableRipple='true'
-            onClick={() => handleSubmit}
+            // onClick={() => handleSubmit()}
             sx={{ backgroundColor: '' }}
           >
             <p>Submit <Icon viewBox='0 0 18 24'/></p>
           </NavButton>
+        </Box>
+
+        <Box sx={{ marginTop: '30px' }}>
+          { formState ? displayAlert() : null }
         </Box>
 
       </Box>

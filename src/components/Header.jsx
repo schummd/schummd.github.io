@@ -141,14 +141,15 @@ export default function Header (props) {
       <List>
 				<ListItem><DrawerNavButton onClick={() => navigate('/collections')} disableRipple='true'><p>Collections</p></DrawerNavButton></ListItem>
 				<ListItem><DrawerNavButton onClick={() => navigate('/about')} disableRipple='true'><p>About</p></DrawerNavButton></ListItem>
-				{/* <ListItem><DrawerNavButton onClick={() => navigate('/about')} disableRipple='true'><p>Blog</p></DrawerNavButton></ListItem> */}
-				{/* <ListItem><DrawerNavButton onClick={() => navigate('/contact')} disableRipple='true'><p>Contact</p></DrawerNavButton></ListItem> */}
+				<ListItem><DrawerNavButton onClick={() => navigate('/about')} disableRipple='true'><p>Blog</p></DrawerNavButton></ListItem>
+				<ListItem><DrawerNavButton onClick={() => navigate('/contact')} disableRipple='true'><p>Contact</p></DrawerNavButton></ListItem>
       </List>
-
     </Box>
   );
 
   const container = window !== undefined ? () => window().document.body : undefined;
+
+	console.log('container:');
 
 	React.useEffect(() => {
 		setActiveLink(location.pathname.substring(1));
@@ -164,7 +165,7 @@ export default function Header (props) {
 						<Box
 							component='img'
 							src={Logo}
-							sx={{ marginTop: '7px', height: '35px' }}
+							sx={{ marginTop: '7px', height: '35px', cursor: 'pointer' }}
 							alt='logo'
 							onClick={() => handleClick('')}
 						/>
@@ -183,7 +184,6 @@ export default function Header (props) {
 					{/* navigation */}
 					<Box sx={{ display: { xs: 'none', sm: 'flex' }}}>
 						{/* if active button is collection, then mark that button in a different style that is 'active' */}
-						{ console.log('current link:', location.pathname) }
 						{
 							activeLink === 'collections' ?
 							<NavButtonActive onClick={() => handleClick('collections')} disableRipple='true'><p>Collections</p></NavButtonActive> :
@@ -196,17 +196,17 @@ export default function Header (props) {
 							<NavButton onClick={() => handleClick('about')} disableRipple='true'><p>About</p></NavButton>
 						}
 
-						{/* {
+						{
 							activeLink === 'blog' ?
 							<NavButtonActive onClick={() => handleClick('blog')} disableRipple='true'><p>Blog</p></NavButtonActive> :
 							<NavButton onClick={() => handleClick('blog')} disableRipple='true'><p>Blog</p></NavButton>
-						} */}
+						}
 
-						{/* {
+						{
 							activeLink === 'contact' ?
 							<NavButtonActive onClick={() => handleClick('contact')} disableRipple='true'><p>Contact</p></NavButtonActive> :
 							<NavButton onClick={() => handleClick('contact')} disableRipple='true'><p>Contact</p></NavButton>
-						} */}
+						}
 					</Box>
 
 				</Toolbar>

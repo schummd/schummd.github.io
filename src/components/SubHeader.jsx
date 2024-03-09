@@ -101,7 +101,6 @@ const NavButtonActive = styled(Button)(() => ({
 	'&:hover': {
 		background: 'none',
 	},
-
 }))
 
 const collections = ['Daylight', 'Dust', 'Escape', 'Illusion', 'Mountains', 'Nice Dream', 'Rose Gold', 'Stay', 'Times', 'Voyages']
@@ -113,7 +112,7 @@ function SubHeader ({ click, setClick }) {
     const name = gallery.toLowerCase().trim().replace(/\s/g, '');
     const link = gallery.trim().replace(/\s/g, '');
     galleries.push(
-      <Grid item xs={1} sm={1} lg={1} sx={{ backgroundColor: '', marginTop: '12px', display: 'flex', justifyContent: 'center' }} key={'item_' + name}>
+      <Grid item xs={1} sm={1} lg={1} sx={{ marginTop: '12px', display: 'flex', justifyContent: 'center' }} key={'item_' + name}>
         {
           click === link ?
           <NavButtonActive onClick={() => setClick(link)} color='inherit' id={'button_' + name} disableRipple='true'>
@@ -137,7 +136,7 @@ function SubHeader ({ click, setClick }) {
         <Box
           sx={{ display: 'block', margin: '74px 10% 30px' }} // original 86px 10% 30px
         >
-          <Grid container columns={{ xs: 2, sm: 5, lg: 10 }} gap={0} sx={{  }}>
+          <Grid container columns={{ xs: 2, sm: 5, lg: 10 }} gap={0} sx={{ display: { xs: '', sm: 'flex' }  }}>
             {galleries}
           </Grid>
         </Box>
