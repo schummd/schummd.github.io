@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.c52c6af8.css",
-    "main.js": "/static/js/main.9fb0b31a.js",
+    "main.css": "/static/css/main.69b99b80.css",
+    "main.js": "/static/js/main.6933b762.js",
     "static/js/787.71e672d5.chunk.js": "/static/js/787.71e672d5.chunk.js",
     "static/media/Dust-7.jpg": "/static/media/Dust-7.2280fa6f32946f729dac.jpg",
     "static/media/Illusion-10.jpg": "/static/media/Illusion-10.c0a8223ca8986c7aebc5.jpg",
@@ -32,9 +32,9 @@
     "static/media/Voyages-3.jpg": "/static/media/Voyages-3.c950ffc3a3676b938b7e.jpg",
     "static/media/Dust-9.jpg": "/static/media/Dust-9.2810a1af2640080490a8.jpg",
     "static/media/Dust-12.jpg": "/static/media/Dust-12.d6be7127facc7ee80ef8.jpg",
+    "static/media/profile_picture.png": "/static/media/profile_picture.80d8ad42d82351a81616.png",
     "static/media/Illusion-8.jpg": "/static/media/Illusion-8.ee79c02177bc4f560089.jpg",
     "static/media/NiceDream-6.jpg": "/static/media/NiceDream-6.a69eb03754f0db3c8e1b.jpg",
-    "static/media/Voyages-5.jpg": "/static/media/Voyages-5.dff29c1e8552a324354a.jpg",
     "static/media/Dust-6.jpg": "/static/media/Dust-6.52aade677787ebcdcdf3.jpg",
     "static/media/Dust-19.jpg": "/static/media/Dust-19.726dcfbdd625fd48181e.jpg",
     "static/media/NiceDream-3.jpg": "/static/media/NiceDream-3.e43f461e51f5bea15523.jpg",
@@ -57,7 +57,6 @@
     "static/media/Illusion-3.jpg": "/static/media/Illusion-3.c8d846589ddd52e72209.jpg",
     "static/media/Times-6.jpg": "/static/media/Times-6.49ef9936f62466278fe5.jpg",
     "static/media/Dust-18.jpg": "/static/media/Dust-18.7becae23156ead41c21d.jpg",
-    "static/media/Voyages-1.jpg": "/static/media/Voyages-1.7dd34210f88f7260034a.jpg",
     "static/media/Stay-14.jpg": "/static/media/Stay-14.7cbcdbc5f634a4670390.jpg",
     "static/media/Escape-2.jpg": "/static/media/Escape-2.c8b3aa37ff7ac44f9e61.jpg",
     "static/media/Voyages-6.jpg": "/static/media/Voyages-6.4c25a7b309d8b4bca556.jpg",
@@ -113,12 +112,12 @@
     "static/media/RoseGold-10.jpg": "/static/media/RoseGold-10.f9dc6b7ff5b95506c5eb.jpg",
     "static/media/Escape-1.jpg": "/static/media/Escape-1.507f3f91b5f0d7f6b993.jpg",
     "index.html": "/index.html",
-    "main.c52c6af8.css.map": "/static/css/main.c52c6af8.css.map",
-    "main.9fb0b31a.js.map": "/static/js/main.9fb0b31a.js.map",
+    "main.69b99b80.css.map": "/static/css/main.69b99b80.css.map",
+    "main.6933b762.js.map": "/static/js/main.6933b762.js.map",
     "787.71e672d5.chunk.js.map": "/static/js/787.71e672d5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c52c6af8.css",
-    "static/js/main.9fb0b31a.js"
+    "static/css/main.69b99b80.css",
+    "static/js/main.6933b762.js"
   ]
 }
