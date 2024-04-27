@@ -19,49 +19,9 @@ import { styled } from '@mui/material/styles';
 import Logo from '../assets/logo.png';
 
 // same as dark button from NavButton
-// const NavButton = styled(Button)(() => ({
-// 	minWidth: '0px',
-// 	padding: '0px',
-//   margin: '0px 10px',
-//   border: 'none',
-//   background: 'none',
-//   position: 'relative',
-//   display: 'flex',
-//   fontWeight: 400,
-//   fontSize: '14px',
-//   gap: '0.5rem',
-//   alignItems: 'center',
+const NavButton_2 = styled(Button)(() => ({
 
-// 	'p': {
-// 		margin: 0,
-// 		position: 'relative',
-// 		color: '#32292F',
-// 	},
-
-// 	'&::after': {
-// 		position: 'absolute',
-// 		content: '""',
-// 		width: 0,
-// 		left: 0,
-// 		bottom: '-7px',
-// 		background: '#6E7DAB',
-// 		height: '2px',
-// 		transition: '0.3s ease-out',
-// 	},
-
-// 	'&:hover': {
-// 		background: 'none',
-// 	},
-
-// 	'&:hover p': {
-// 		color: '#6E7DAB',
-// 		transition: '0.5s ease-in-out',
-// 	},
-
-// 	'&:hover::after': {
-// 		width: '100%',
-// 	},
-// }))
+}))
 
 const NavButtonActive = styled(Button)(() => ({
 	minWidth: '0px',
@@ -99,7 +59,48 @@ const NavButtonActive = styled(Button)(() => ({
 
 }))
 
-const DrawerNavButton = styled(NavButton)(() => ({
+const DrawerNavButton = styled(Button)(() => ({
+	minWidth: '0px',
+	padding: '0px',
+  margin: '0px 10px',
+  border: 'none',
+  background: 'none',
+  position: 'relative',
+  display: 'flex',
+  fontWeight: 400,
+  fontSize: '14px',
+  gap: '0.5rem',
+  alignItems: 'center',
+
+	'p': {
+		margin: 0,
+		position: 'relative',
+		color: '#32292F',
+	},
+
+	'&::after': {
+		position: 'absolute',
+		content: '""',
+		width: 0,
+		left: 0,
+		bottom: '-7px',
+		background: '#6E7DAB',
+		height: '2px',
+		transition: '0.3s ease-out',
+	},
+
+	'&:hover': {
+		background: 'none',
+	},
+
+	'&:hover p': {
+		color: '#6E7DAB',
+		transition: '0.5s ease-in-out',
+	},
+
+	'&:hover::after': {
+		width: '100%',
+	},
 	'&:hover p': {
 		color: '#32292F',
 		transition: 'none',
