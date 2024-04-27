@@ -1,10 +1,10 @@
 import * as React from 'react';
 import { Link as RouterLink, useNavigate } from 'react-router-dom';
-import Container from '@mui/material/Container';
+// import Container from '@mui/material/Container';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import Grid from '@mui/material/Grid';
-import Link from '@mui/material/Link';
+// import Link from '@mui/material/Link';
 import TextField from '@mui/material/TextField';
 import Typography from '@mui/material/Typography';
 
@@ -12,9 +12,12 @@ import Alert from '@mui/material/Alert';
 import CheckIcon from '@mui/icons-material/Check';
 
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
-import { StylesContext } from '@mui/styles';
+// import { StylesContext } from '@mui/styles';
 
 import emailjs from '@emailjs/browser';
+
+
+// import NavButton from './design/Button';
 
 // import { serverQuery } from '../utilities/helpers';
 
@@ -105,7 +108,7 @@ const displayAlert = () => {
   )
 }
 
-function Contact () {
+function Contact ({ setActiveLink }) {
   const navigate = useNavigate();
 
   const [firstError, setFirstError] = React.useState(false);
@@ -127,7 +130,6 @@ function Contact () {
     };
 
     // const value = Object.fromEntries(data.entries());
-    // console.log('value', value);
 
     let error = false;
 
@@ -170,11 +172,15 @@ function Contact () {
   // listens to a click anywhere on the page and removes the success alert
   // TODO: change to respond only to a click within the form !
   React.useEffect(() => {
-    const handleClick = (event) => {
+    const handleClick = () => {
       setFormState(false);
     }
     document.addEventListener('mousedown', handleClick);
   }, []);
+
+  const handleClick = () => {
+
+  }
 
 	return (
 		<Box
@@ -205,7 +211,7 @@ function Contact () {
         Send a message
       </Typography>
 
-      <Box component="form" name='register-form' noValidate onSubmit={handleSubmit} sx={{ mt: 3, padding: '40px' }}>
+      <Box component="form" name='register-form' noValidate onSubmit={handleSubmit} sx={{ mt: 3, padding: '40px', backgroundColor: '' }}>
 
         <Grid container spacing={2} sx={{ background: '' }}>
           <Grid item xs={12} sm={6}>
@@ -222,6 +228,7 @@ function Contact () {
               error={firstError}
               helperText={firstError ? 'First name can\'t be empty' : null}
               onChange={() => setFirstError(false)}
+              onClick={handleClick}
             />
           </Grid>
           <Grid item xs={12} sm={6}>
@@ -281,12 +288,13 @@ function Contact () {
         >
           <NavButton
             type='submit'
-            disableRipple='true'
+            disableRipple={true}
             // onClick={() => handleSubmit()}
             sx={{ backgroundColor: '' }}
           >
             <p>Submit <Icon viewBox='0 0 18 24'/></p>
           </NavButton>
+          {/* <NavButton type='submit' text={'Submit'} setActiveLink={setActiveLink} arrow={true} customStyle={{ fontWeight: '300', textTransform: 'capitalize', fontSize: '16px' }}/> */}
         </Box>
 
         <Box sx={{ marginTop: '30px' }}>

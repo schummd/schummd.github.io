@@ -1,7 +1,51 @@
 import * as React from 'react';
 import Box from '@mui/material/Box';
+import Typography from '@mui/material/Typography';
 
+// import exifr from 'exifr';
 // import SubHeader from '../SubHeader';
+
+import { styled } from '@mui/material/styles';
+
+const history = {
+	'Dust-1': '',
+	'Mountains-1': '',
+	'Voyages-2': 'Malaysia 2018',
+}
+
+// const description = {
+// 	'Daylight-1': 'Parnell Rose Garden, Auckland, New Zealand (2018)',
+// }
+
+const SubText = styled(Box)({
+	fontFamily: '"Roboto", "Helvetica", "Arial", sans-serif',
+	fontSize: '10px',
+  fontWeight: 400,
+	color: '#6b6b6b',
+	marginTop: '-12px',
+	textAlign: 'center',
+})
+
+// const DesText = styled(Box)({
+// 	fontFamily: '"Roboto", "Helvetica", "Arial", sans-serif',
+// 	fontSize: '14px',
+//   fontWeight: 400,
+// 	color: '#6b6b6b',
+// 	marginTop: '-10px',
+// 	textAlign: 'center',
+// 	// backgroundColor: 'grey',
+// })
+
+const Image = ({ item }) => {
+	const fileName = item.match(/[A-Z]{1}[A-Za-z]+-\d{1,2}/g)[0];
+	return (
+		<>
+			{/* <DesText> { description[fileName] } </DesText> */}
+			<Box component={'img'} src={item} flex={1} key={item} />
+			<SubText> { history[fileName] } </SubText>
+		</>
+	)
+}
 
 function Gallery ({ name }) {
 	const cache = {};
@@ -13,40 +57,40 @@ function Gallery ({ name }) {
 	importAll(require.context('../assets/collections', false, /\.jpg/));
 	const images = Object.entries(cache).map(module => module[1]);
 
-	console.log(typeof cache);
-
 	return (
-		<>
-			<Box
-				display='flex'
-				flexDirection='column'
-				justifyContent='center'
-				gap={2}
-				sx={{
-					margin: {
-						// top | left and right | bottom
-						// appbar 56px
-						xs: '0px 30px 30px',
-						sm: '0px 150px 30px',
-						md: '0px 150px 30px',
-						lg: '0px 400px 30px',
-						xl: '0px 450px 30px',
-					},
-					// backgroundColor: {
-					// 	xs: 'red',
-					// 	sm: 'yellow',
-					// 	md: 'grey',
-					// 	lg: 'blue',
-					// 	xl: 'green'
-					// }
-				}}
-			>
-				{images.map((item) => (
-					item.includes(name) ? <Box component={'img'} src={item} flex={1}/> : null
-				))}
-			</Box>
-
-		</>
+		<Box
+			display='flex'
+			flexDirection='column'
+			justifyContent='center'
+			gap={2}
+			sx={{
+				margin: {
+					// top | left and right | bottom
+					// appbar 56px
+					xs: '0px 30px 0px',
+					sm: '0px 150px 0px',
+					md: '0px 150px 0px',
+					lg: '0px 400px 0px',
+					xl: '0px 450px 0px',
+				},
+				// backgroundColor: {
+				// 	xs: 'red',
+				// 	sm: 'yellow',
+				// 	md: 'grey',
+				// 	lg: 'blue',
+				// 	xl: 'green'
+				// }
+			}}
+		>
+			{
+				images.map((item) => (
+					item.includes(name) ?
+					// <Box component={'img'} src={item} flex={1} key={item}/> :
+					<Image item={item} /> :
+					null
+				))
+			}
+		</Box>
 	)
 }
 

@@ -7,21 +7,6 @@ import Grid from '@mui/material/Grid';
 import { styled } from '@mui/material/styles';
 // import { useNavigate } from 'react-router-dom';
 
-// const LinkButton = styled(Button)(() => ({
-//   width: '90%',
-//   height: '100%',
-//   borderRadius: '0px',
-//   "&:hover": {
-//     background: '#f5f5f5'
-//   },
-//   "&:active": {
-//     background: '#e3e3e3'
-//   },
-//   "&:focus": {
-//     borderBottom: '0.5px solid #333'
-//   },
-// }));
-
 const NavButton = styled(Button)(() => ({
 	minWidth: '0px',
   // width: '100%',
@@ -115,10 +100,10 @@ function SubHeader ({ click, setClick }) {
       <Grid item xs={1} sm={1} lg={1} sx={{ marginTop: '12px', display: 'flex', justifyContent: 'center' }} key={'item_' + name}>
         {
           click === link ?
-          <NavButtonActive onClick={() => setClick(link)} color='inherit' id={'button_' + name} disableRipple='true'>
+          <NavButtonActive onClick={() => setClick(link)} color='inherit' id={'button_' + name} disableRipple={true}>
             <p>{gallery}</p>
           </NavButtonActive> :
-          <NavButton onClick={() => setClick(link)} color='inherit' id={'button_' + name} disableRipple='true'>
+          <NavButton onClick={() => setClick(link)} color='inherit' id={'button_' + name} disableRipple={true}>
             <p>{gallery}</p>
           </NavButton>
         }

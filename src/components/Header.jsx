@@ -12,67 +12,56 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Toolbar from '@mui/material/Toolbar';
 import Button from '@mui/material/Button';
 
+import NavButton from './design/Button';
+
 import { styled } from '@mui/material/styles';
 
 import Logo from '../assets/logo.png';
 
-// const LinkButton = styled(Button)(() => ({
-//   borderRadius: '0px',
-// 	margin: '5px',
-//   "&:hover": {
-//     background: '#f5f5f5'
-//   },
-//   "&:active": {
-//     background: '#e3e3e3'
-//   },
-//   "&:focus": {
-//     borderBottom: '0.5px solid #333'
-//   },
-// }));
+// same as dark button from NavButton
+// const NavButton = styled(Button)(() => ({
+// 	minWidth: '0px',
+// 	padding: '0px',
+//   margin: '0px 10px',
+//   border: 'none',
+//   background: 'none',
+//   position: 'relative',
+//   display: 'flex',
+//   fontWeight: 400,
+//   fontSize: '14px',
+//   gap: '0.5rem',
+//   alignItems: 'center',
 
-const NavButton = styled(Button)(() => ({
-	minWidth: '0px',
-	padding: '0px',
-  margin: '0px 10px',
-  border: 'none',
-  background: 'none',
-  position: 'relative',
-  display: 'flex',
-  fontWeight: 400,
-  fontSize: '14px',
-  gap: '0.5rem',
-  alignItems: 'center',
+// 	'p': {
+// 		margin: 0,
+// 		position: 'relative',
+// 		color: '#32292F',
+// 	},
 
-	'p': {
-		margin: 0,
-		position: 'relative',
-		color: '#32292F',
-	},
+// 	'&::after': {
+// 		position: 'absolute',
+// 		content: '""',
+// 		width: 0,
+// 		left: 0,
+// 		bottom: '-7px',
+// 		background: '#6E7DAB',
+// 		height: '2px',
+// 		transition: '0.3s ease-out',
+// 	},
 
-	'&::after': {
-		position: 'absolute',
-		content: '""',
-		width: 0,
-		left: 0,
-		bottom: '-7px',
-		background: '#6E7DAB',
-		height: '2px',
-		transition: '0.3s ease-out',
-	},
+// 	'&:hover': {
+// 		background: 'none',
+// 	},
 
-	'&:hover': {
-		background: 'none',
-	},
+// 	'&:hover p': {
+// 		color: '#6E7DAB',
+// 		transition: '0.5s ease-in-out',
+// 	},
 
-	'&:hover p': {
-		color: '#6E7DAB',
-		transition: '0.5s ease-in-out',
-	},
-
-	'&:hover::after': {
-		width: '100%',
-	},
-}))
+// 	'&:hover::after': {
+// 		width: '100%',
+// 	},
+// }))
 
 const NavButtonActive = styled(Button)(() => ({
 	minWidth: '0px',
@@ -124,8 +113,13 @@ export default function Header (props) {
 	const navigate = useNavigate();
 	const location = useLocation();
 	const { window } = props;
+
   const [ mobileOpen, setMobileOpen ] = React.useState(false);
-	const [ activeLink, setActiveLink ] = React.useState('');
+	// const [ activeLink, setActiveLink ] = React.useState('');
+	const activeLink = props.activeLink;
+	const setActiveLink = props.setActiveLink;
+
+	console.log('active link:', activeLink)
 
   const handleDrawerToggle = () => {
     setMobileOpen((prevState) => !prevState);
@@ -139,17 +133,15 @@ export default function Header (props) {
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
       <List>
-				<ListItem><DrawerNavButton onClick={() => navigate('/collections')} disableRipple='true'><p>Collections</p></DrawerNavButton></ListItem>
-				<ListItem><DrawerNavButton onClick={() => navigate('/about')} disableRipple='true'><p>About</p></DrawerNavButton></ListItem>
-				<ListItem><DrawerNavButton onClick={() => navigate('/about')} disableRipple='true'><p>Blog</p></DrawerNavButton></ListItem>
-				<ListItem><DrawerNavButton onClick={() => navigate('/contact')} disableRipple='true'><p>Contact</p></DrawerNavButton></ListItem>
+				<ListItem><DrawerNavButton onClick={() => navigate('/collections')} disableRipple={true}><p>Collections</p></DrawerNavButton></ListItem>
+				<ListItem><DrawerNavButton onClick={() => navigate('/about')} disableRipple={true}><p>About</p></DrawerNavButton></ListItem>
+				<ListItem><DrawerNavButton onClick={() => navigate('/blog')} disableRipple={true}><p>Blog</p></DrawerNavButton></ListItem>
+				<ListItem><DrawerNavButton onClick={() => navigate('/contact')} disableRipple={true}><p>Contact</p></DrawerNavButton></ListItem>
       </List>
     </Box>
   );
 
   const container = window !== undefined ? () => window().document.body : undefined;
-
-	console.log('container:');
 
 	React.useEffect(() => {
 		setActiveLink(location.pathname.substring(1));
@@ -186,26 +178,31 @@ export default function Header (props) {
 						{/* if active button is collection, then mark that button in a different style that is 'active' */}
 						{
 							activeLink === 'collections' ?
-							<NavButtonActive onClick={() => handleClick('collections')} disableRipple='true'><p>Collections</p></NavButtonActive> :
-							<NavButton onClick={() => handleClick('collections')} disableRipple='true'><p>Collections</p></NavButton>
+							// <NavButton link={'collections'} text={'Collections'} setActiveLink={setActiveLink} colour={'dark'} arrow={false} customStyle={{ margin: '0px 10px', 'p': { color: '#6E7DAB' }, }}/> :
+							<NavButtonActive onClick={() => handleClick('collections')} disableRipple={true}><p>Collections</p></NavButtonActive> :
+							<NavButton link={'collections'} text={'Collections'} setActiveLink={setActiveLink} colour={'dark'} arrow={false} customStyle={{ margin: '0px 10px' }}/>
+							// <NavButton onClick={() => handleClick('collections')} disableRipple={true}><p>Collections</p></NavButton>
 						}
 
 						{
 							activeLink === 'about' ?
-							<NavButtonActive onClick={() => handleClick('about')} disableRipple='true'><p>About</p></NavButtonActive> :
-							<NavButton onClick={() => handleClick('about')} disableRipple='true'><p>About</p></NavButton>
+							<NavButtonActive onClick={() => handleClick('about')} disableRipple={true}><p>About</p></NavButtonActive> :
+							<NavButton link={'about'} text={'About'} setActiveLink={setActiveLink} colour={'dark'} arrow={false} customStyle={{ margin: '0px 10px' }}/>
+							// <NavButton onClick={() => handleClick('about')} disableRipple={true}><p>About</p></NavButton>
 						}
 
 						{
 							activeLink === 'blog' ?
-							<NavButtonActive onClick={() => handleClick('blog')} disableRipple='true'><p>Blog</p></NavButtonActive> :
-							<NavButton onClick={() => handleClick('blog')} disableRipple='true'><p>Blog</p></NavButton>
+							<NavButtonActive onClick={() => handleClick('blog')} disableRipple={true}><p>Blog</p></NavButtonActive> :
+							<NavButton link={'blog'} text={'Blog'} setActiveLink={setActiveLink} colour={'dark'} arrow={false} customStyle={{ margin: '0px 10px' }}/>
+							// <NavButton onClick={() => handleClick('blog')} disableRipple={true}><p>Blog</p></NavButton>
 						}
 
 						{
 							activeLink === 'contact' ?
-							<NavButtonActive onClick={() => handleClick('contact')} disableRipple='true'><p>Contact</p></NavButtonActive> :
-							<NavButton onClick={() => handleClick('contact')} disableRipple='true'><p>Contact</p></NavButton>
+							<NavButtonActive onClick={() => handleClick('contact')} disableRipple={true}><p>Contact</p></NavButtonActive> :
+							<NavButton link={'contact'} text={'Contact'} setActiveLink={setActiveLink} colour={'dark'} arrow={false} customStyle={{ margin: '0px 10px' }}/>
+							// <NavButton onClick={() => handleClick('contact')} disableRipple={true}><p>Contact</p></NavButton>
 						}
 					</Box>
 

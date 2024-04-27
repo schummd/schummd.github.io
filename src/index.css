@@ -5,11 +5,15 @@ body {
     sans-serif; */
   font-size: "Roboto", "Helvetica", "Arial", sans-serif;
   font-weight: 400;
+
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+p {
+  color: '#32292F',
+}
+
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
