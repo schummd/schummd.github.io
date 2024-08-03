@@ -38,7 +38,7 @@ export default function Works() {
           <div class="col-span-2 md:col-span-1">
             <div class="grid col-span-2 md:col-span-1 gap-1">
               <div>
-                <a href="https://dariaschumm.netlify.app" class="font-semibold text-indigo-500" target="_blank">
+                <a href="https://dariaschummphoto.netlify.app" class="font-semibold text-indigo-500" target="_blank">
                   Schumm Photography
                 </a>
               </div>
