@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route, HashRouter } from "react-router-dom";
 import "./index.css"
 import Header from './components/Header';
 import Home from "./pages/Home";
@@ -9,7 +9,7 @@ import About from "./pages/About";
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div class="flex flex-col w-full min-h-screen bg-gradient-to-t from-purple-200 to-neutral-50">
         <Header />
         <Routes>
@@ -20,7 +20,7 @@ export default function App() {
           <Route path='/about' element={<About />}/>
         </Routes>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
