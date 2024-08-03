@@ -2,7 +2,7 @@
   "name": "resume_vite",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://schummd.github.io/",
+  "homepage": ".",
   "type": "module",
   "scripts": {
     "dev": "vite",
