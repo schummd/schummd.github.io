@@ -1,6 +1,6 @@
 export default function Experience() {
   return(
-    <div class="flex flex-col items-center justify-center h-full lg:h-screen">
+    <div class="flex flex-col items-center justify-center h-full">
       <div class="container w-3/5 my-28">
         <h1 class="font-montserrat font-medium text-3xl mb-12">Experience</h1>
 
