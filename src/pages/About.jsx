@@ -1,4 +1,5 @@
 import { useNavigate } from 'react-router-dom';
+import photo from '../assets/profile_picture.png';
 
 export default function About() {
   const navigate = useNavigate();
@@ -18,7 +19,7 @@ export default function About() {
           </div>
 
           <div class="col-span-2 md:col-span-1 flex justify-end">
-            <img class="h-40" src="public/profile_picture.png" alt="Profile Picture"/>
+            <img class="h-40" src={photo} alt="Profile Picture"/>
           </div>
 
           <div class="col-span-2 mt-8">

@@ -1,4 +1,7 @@
 import { useNavigate } from 'react-router-dom';
+import iteratio from '../assets/iteratio.png';
+import photography from '../assets/photography.png';
+import resume from '../assets/resume.png';
 
 export default function Works() {
   const navigate = useNavigate();
@@ -10,7 +13,7 @@ export default function Works() {
         <div class="grid md:gap-x-6 gap-y-1 font-montserrat">
 
           <div class="col-span-2 md:col-span-1 mb-2">
-            <img class="h-58 " src="public/iteratio.png" alt="iteratio website"/>
+            <img class="h-58 " src={iteratio} alt="iteratio website"/>
           </div>
           <div class="col-span-2 md:col-span-1">
             <div class="grid col-span-2 md:col-span-1 gap-1">
@@ -30,7 +33,7 @@ export default function Works() {
           <div class="col-span-2 border-b-0 border-stone-300 my-4"/>
 
           <div class="col-span-2 md:col-span-1 mb-2">
-            <img class="h-58 " src="public/photography.png" alt="iteratio website"/>
+            <img class="h-58 " src={photography} alt="iteratio website"/>
           </div>
           <div class="col-span-2 md:col-span-1">
             <div class="grid col-span-2 md:col-span-1 gap-1">
@@ -50,7 +53,7 @@ export default function Works() {
           <div class="col-span-2 border-b-0 border-stone-300 my-4"/>
 
           <div class="col-span-2 md:col-span-1 mb-2">
-            <img class="h-58 " src="public/resume.png" alt="iteratio website"/>
+            <img class="h-58 " src={resume} alt="iteratio website"/>
           </div>
           <div class="col-span-2 md:col-span-1">
             <div class="grid col-span-2 md:col-span-1 gap-1">

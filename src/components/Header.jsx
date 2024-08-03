@@ -1,4 +1,5 @@
 import { useNavigate } from 'react-router-dom';
+import logo from '../assets/logo.png';
 
 export default function Header() {
   const navigate = useNavigate();
@@ -6,7 +7,7 @@ export default function Header() {
     <nav class="bg-transparent">
       <div class="fixed w-screen flex flex-wrap items-center justify-between mx-auto p-8">
         <a onClick={() => navigate('/')} class="flex items-center space-x-3 rtl:space-x-reverse">
-          <img class="h-8" src="public/logo.png" alt="Schumm Logo" />
+          <img class="h-8" src={logo} alt="Schumm Logo" />
         </a>
         <div class="hidden w-full md:block md:w-auto" id="navbar-default">
           <ul class="font-montserrat font-normal flex flex-row md:p-0 md:space-x-8 md:mt-0 md:border-0">
