@@ -42,7 +42,6 @@ export default function Publications() {
             Dubai, United Arab Emirates, 2023, pp. 1-3.
           </li>
         </ul>
-
       </div>
     </div>
   )

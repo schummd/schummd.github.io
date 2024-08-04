@@ -12,8 +12,13 @@ export default function Experience() {
               <div><h2 class="font-semibold text-indigo-500">Front-End Developer</h2></div>
               <div class="text-slate-500">Worldwide</div>
               <div class="mt-2">
-                Designing and developing websites using React, Javascript and popular
-                CSS frameworks, such as Material UI and Tailwindcss.
+                Identifing and formulating user requirements user requirements, mapping to functional
+                requirements for application design. Producing UX, UI, and design prototypes based
+                on identified requirements.
+              </div>
+              <div class="mt-2">
+                Developing websites using React, JavaScript and popular CSS frameworks,
+                such as Material UI and Tailwindcss.
               </div>
             </div>
           </div>
@@ -30,6 +35,13 @@ export default function Experience() {
                 with companies such as STMicroelectronics, Collins Aerospace, and Trust Square.
                 The project is addressing cybersecurity for IoT-enables environments though a
                 multi-stakeholder sharing of threats and mitigations.
+              </div>
+              <div class="mt-2">
+                Planning, developing, and editing of academic publications. Reviewing of
+                publication submissions for IEEE Transactions on Network and Service Management.
+              </div>
+              <div class="mt-2">
+                Supervising bachelor and master student theses and academic projects.
               </div>
             </div>
           </div>
@@ -102,6 +114,45 @@ export default function Experience() {
             </div>
           </div>
         </div>
+
+        <h2 class="font-montserrat font-medium text-3xl my-14">Education</h2>
+
+        <div class="grid md:gap-x-6 gap-y-1 font-montserrat">
+          {/* UNSW */}
+          <div class="col-span-2 md:col-span-1 mb-2">Feb 2020 - Dec 2022</div>
+          <div class="col-span-2 md:col-span-1">
+            <div class="grid col-span-2 md:col-span-1 gap-1">
+              <div><h2 class="font-semibold text-indigo-500">Master of Information Technology</h2></div>
+              <div class="text-slate-500">University of New South Wales (Sydney, Australia</div>
+              <div class="mt-2">
+                Award with Excellence.
+              </div>
+            </div>
+          </div>
+          <div class="col-span-2 border-b border-stone-300 my-4"/>
+
+          {/* Massey */}
+          <div class="col-span-2 md:col-span-1 mb-2">Feb 2015 - Nov 2017</div>
+          <div class="col-span-2 md:col-span-1">
+            <div class="grid col-span-2 md:col-span-1 gap-1">
+              <div><h2 class="font-semibold text-indigo-500">Bachelor of Aviation Management</h2></div>
+              <div class="text-slate-500">Massey University (Auckland, New Zealand)</div>
+            </div>
+          </div>
+          <div class="col-span-2 border-b border-stone-300 my-4"/>
+
+          {/* AU */}
+          <div class="col-span-2 md:col-span-1 mb-2">Feb 2014 - Nov 2016</div>
+          <div class="col-span-2 md:col-span-1">
+            <div class="grid col-span-2 md:col-span-1 gap-1">
+              <div><h2 class="font-semibold text-indigo-500">Bachelor of Arts</h2></div>
+              <div class="text-slate-500">University of Auckland (Auckland, New Zealand)</div>
+            </div>
+          </div>
+          <div class="hidden col-span-2 border-b border-stone-300 my-4"/>
+
+        </div>
+
       </div>
     </div>
   )
