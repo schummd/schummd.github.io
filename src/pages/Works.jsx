@@ -70,7 +70,7 @@ export default function Works() {
               </div>
             </div>
           </div>
-          {/* <div class="col-span-2 border-b-0 border-stone-300 my-4"/> */}
+          <div class="hidden col-span-2 border-b-0 border-stone-300 my-4"/>
 
         </div>
 
