@@ -6,6 +6,11 @@ export default function Publications() {
 
         <ul class="font-montserrat space-y-10 list-none list-inside">
           <li>
+            D. Schumm, K. O. E. Müller and B.Stiller,
+            <a href="#" class="font-semibold text-indigo-500">“Are We There Yet? A Study of Decentralised Identity Applications”</a>,
+            2025 (In Submission).
+          </li>
+          <li>
             D. Schumm, B. Rodrigues and B. Stiller,
             <a href="#" class="font-semibold text-indigo-500">“Digital Identity and Blockchain: A Comprehensive Overview of Approaches”</a>,
             in Blockchain and Society Handbook, John Flood and Lachlan Robb,
