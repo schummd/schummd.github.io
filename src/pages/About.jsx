@@ -9,16 +9,16 @@ export default function About() {
 
         <div class="grid md:gap-x-6 gap-y-1 font-montserrat">
 
-          <div class="col-span-2 md:col-span-1 flex items-center">
+          <div class="flex items-center col-span-2 md:col-span-1 justify-center md:justify-start">
 
             <div class="grid">
               <h1 class="font-semibold text-3xl">About Me</h1>
-              <p class="mt-4">schumm@ifi.uzh.ch</p>
+              <p class="my-4">schumm@ifi.uzh.ch</p>
             </div>
 
           </div>
 
-          <div class="col-span-2 md:col-span-1 flex justify-end">
+          <div class="flex col-span-2 md:col-span-1 justify-center md:justify-end">
             <img class="h-40" src={photo} alt="Profile Picture"/>
           </div>
 
