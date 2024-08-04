@@ -1,7 +1,7 @@
 export default function Experience() {
   return(
     <div class="flex flex-col items-center justify-center h-full">
-      <div class="container w-3/5 my-28">
+      <div class="container w-4/5 md:w-3/5 my-28">
         <h1 class="font-montserrat font-medium text-3xl mb-12">Experience</h1>
 
         <div class="grid md:gap-x-6 gap-y-1 font-montserrat">
@@ -13,7 +13,7 @@ export default function Experience() {
               <div class="text-slate-500">Worldwide</div>
               <div class="mt-2">
                 Designing and developing websites using React, Javascript and popular
-                CSS frameworks, such as Material UI and Tailwind.
+                CSS frameworks, such as Material UI and Tailwindcss.
               </div>
             </div>
           </div>
@@ -26,7 +26,7 @@ export default function Experience() {
               <div><h2 class="font-semibold text-indigo-500">Research Assistant</h2></div>
               <div class="text-slate-500">University of Zürich (Zürich, Switzerland)</div>
               <div class="mt-2">
-                Working on a research project sponsored by EU Horizon and in collaboration
+                Working on a research project sponsored by the EU Horizon and in collaboration
                 with companies such as STMicroelectronics, Collins Aerospace, and Trust Square.
                 The project is addressing cybersecurity for IoT-enables environments though a
                 multi-stakeholder sharing of threats and mitigations.

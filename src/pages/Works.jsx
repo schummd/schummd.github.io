@@ -7,7 +7,7 @@ export default function Works() {
   const navigate = useNavigate();
   return(
     <div class="flex flex-col items-center justify-center">
-      <div class="container w-3/5 my-28">
+      <div class="container w-4/5 md:w-3/5 my-28">
         <h1 class="font-montserrat font-medium text-3xl mb-12">Works</h1>
 
         <div class="grid md:gap-x-6 gap-y-1 font-montserrat">
@@ -20,6 +20,9 @@ export default function Works() {
               <div>
                 <a href="https://iteratio.netlify.app" class="font-semibold text-indigo-500" target="_blank">
                   Iteratio
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4 inline-block ml-1">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
+                  </svg>
                 </a>
               </div>
               <div class="text-slate-500">Javascript, React, Material UI</div>
@@ -40,6 +43,9 @@ export default function Works() {
               <div>
                 <a href="https://dariaschummphoto.netlify.app" class="font-semibold text-indigo-500" target="_blank">
                   Schumm Photography
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4 inline-block ml-1">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
+                  </svg>
                 </a>
               </div>
               <div class="text-slate-500">Javascript, React, Material UI</div>

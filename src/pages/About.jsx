@@ -5,20 +5,16 @@ export default function About() {
   const navigate = useNavigate();
   return(
     <div class="flex flex-col items-center justify-center h-full md:h-screen">
-      <div class="container w-3/5 my-28">
-
+      <div class="container w-4/5 md:w-3/5 my-28">
         <div class="grid md:gap-x-6 gap-y-1 font-montserrat">
-
-          <div class="flex items-center col-span-2 md:col-span-1 justify-center md:justify-start">
-
+          <div class="flex items-center col-span-2 md:col-span-1 justify-start">
             <div class="grid">
-              <h1 class="font-semibold text-3xl">About Me</h1>
+              <h1 class="font-medium text-3xl">About Me</h1>
               <p class="my-4">schumm@ifi.uzh.ch</p>
             </div>
-
           </div>
 
-          <div class="flex col-span-2 md:col-span-1 justify-center md:justify-end">
+          <div class="flex col-span-2 md:col-span-1 justify-start md:justify-end">
             <img class="h-40" src={photo} alt="Profile Picture"/>
           </div>
 
@@ -41,9 +37,7 @@ export default function About() {
               </svg>
             </a>
           </div>
-
         </div>
-
       </div>
     </div>
   )
