@@ -6,7 +6,7 @@ import resume from '../assets/resume.png';
 export default function Works() {
   const navigate = useNavigate();
   return(
-    <div class="flex flex-col items-center justify-center h-full">
+    <div class="flex flex-col items-center justify-center">
       <div class="container w-3/5 my-28">
         <h1 class="font-montserrat font-medium text-3xl mb-12">Works</h1>
 
@@ -70,7 +70,7 @@ export default function Works() {
               </div>
             </div>
           </div>
-          <div class="hidden col-span-2 border-b-0 border-stone-300 my-4"/>
+          <div class="col-span-2 border-b-0 border-stone-300 my-4"/>
 
         </div>
 
