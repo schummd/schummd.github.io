@@ -17,6 +17,12 @@ export default function Publications() {
             De Gruyter, 2025 (Forthcoming).
           </li>
           <li>
+            K. O. E. Müller, D. Datsomor, D. Schumm, B. Rodrigues and B. Stiller,
+            <a href="#" class="font-semibold text-indigo-500">“Big Brother is Watching You: Non-Intrusive ZigBee User Profiling”</a>,
+            2024 20th International Conference on Network and Service Management (CNSM),
+            Prague, Czech Republic, 2024.
+          </li>
+          <li>
             M. Leder, D. Schumm, B. Rodrigues and B. Stiller,
             <a href="#" class="font-semibold text-indigo-500">“AfriBit: A People-Oriented Wallet Fostering Financial Inclusion in Kibera”</a>,
             6th Conference on Blockchain Research & Applications for Innovative Networks and Services (BRAINS),

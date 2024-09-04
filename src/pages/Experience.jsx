@@ -6,7 +6,7 @@ export default function Experience() {
 
         <div class="grid md:gap-x-6 gap-y-1 font-montserrat">
           {/* freelance */}
-          <div class="col-span-2 md:col-span-1 mb-2">May 2024 - Current</div>
+          <div class="col-span-2 md:col-span-1 mb-2">May 2023 - Current</div>
           <div class="col-span-2 md:col-span-1">
             <div class="grid col-span-2 md:col-span-1 gap-1">
               <div><h2 class="font-semibold text-indigo-500">Front-End Developer</h2></div>
