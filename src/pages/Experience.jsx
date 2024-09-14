@@ -157,6 +157,9 @@ export default function Experience() {
             <div class="grid col-span-2 md:col-span-1 gap-1">
               <div><h2 class="font-semibold text-indigo-500">Bachelor of Arts</h2></div>
               <div class="text-slate-500">University of Auckland (Auckland, New Zealand)</div>
+              <div class="mt-2">
+                Major in Philosophy, Politics and Interational Relations.
+              </div>
             </div>
           </div>
           <div class="hidden col-span-2 border-b border-stone-300 my-4"/>
