@@ -118,12 +118,22 @@ export default function Experience() {
         <h2 class="font-montserrat font-medium text-3xl my-14">Education</h2>
 
         <div class="grid md:gap-x-6 gap-y-1 font-montserrat">
+          {/* UZH */}
+          <div class="col-span-2 md:col-span-1 mb-2">July 2023 - current</div>
+          <div class="col-span-2 md:col-span-1">
+            <div class="grid col-span-2 md:col-span-1 gap-1">
+              <div><h2 class="font-semibold text-indigo-500">Doctor of Philosophy</h2></div>
+              <div class="text-slate-500">University of Zürich (Zürich, Switzerland)</div>
+            </div>
+          </div>
+          <div class="col-span-2 border-b border-stone-300 my-4"/>
+
           {/* UNSW */}
           <div class="col-span-2 md:col-span-1 mb-2">Feb 2020 - Dec 2022</div>
           <div class="col-span-2 md:col-span-1">
             <div class="grid col-span-2 md:col-span-1 gap-1">
               <div><h2 class="font-semibold text-indigo-500">Master of Information Technology</h2></div>
-              <div class="text-slate-500">University of New South Wales (Sydney, Australia</div>
+              <div class="text-slate-500">University of New South Wales (Sydney, Australia)</div>
               <div class="mt-2">
                 Award with Excellence.
               </div>
