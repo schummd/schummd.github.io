@@ -27,6 +27,9 @@ export default function About() {
               Particularly, I am investigating the reasons behind slow adoption of the decentralised technologies,
               by looking not only at the technological limitations, but also social.
             </p>
+            <p class="mb-2">
+              In a spare time I am a photographer. Have a look at the <a href="https://dariaschummphoto.netlify.app/" target="_blank">collection of my works</a>.
+            </p>
           </div>
 
           <div class="col-span-2">
