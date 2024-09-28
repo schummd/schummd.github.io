@@ -1,4 +1,7 @@
+import { useNavigate } from 'react-router-dom';
+
 export default function Experience() {
+  const navigate = useNavigate();
   return(
     <div class="flex flex-col items-center justify-center h-full">
       <div class="container w-4/5 md:w-3/5 my-28">
@@ -42,6 +45,7 @@ export default function Experience() {
               </div>
               <div class="mt-2">
                 Supervising bachelor and master student theses and academic projects.
+                The list of completed theses can be found <a onClick={() => navigate('/theses')} class="cursor-pointer">here</a>.
               </div>
             </div>
           </div>
