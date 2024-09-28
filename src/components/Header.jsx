@@ -6,22 +6,25 @@ export default function Header() {
   return (
     <nav class="bg-transparent">
       <div class="fixed w-screen flex flex-wrap items-center justify-between mx-auto p-8">
-        <a onClick={() => navigate('/')} class="flex items-center space-x-3 rtl:space-x-reverse">
+        <a onClick={() => navigate('/')} class="flex items-center space-x-3 rtl:space-x-reverse cursor-pointer">
           <img class="h-8" src={logo} alt="Schumm Logo" />
         </a>
         <div class="hidden w-full md:block md:w-auto" id="navbar-default">
           <ul class="font-montserrat font-normal flex flex-row md:p-0 md:space-x-8 md:mt-0 md:border-0">
             <li>
-              <a onClick={() => navigate('/works')} class="block py-1 px-3 text-current hover:text-gray-500">Works</a>
+              <a onClick={() => navigate('/works')} class="block py-1 px-3 text-current hover:text-gray-500 cursor-pointer">Works</a>
             </li>
             <li>
-              <a onClick={() => navigate('/publications')} class="block py-1 px-3 text-current hover:text-gray-500">Publications</a>
+              <a onClick={() => navigate('/publications')} class="block py-1 px-3 text-current hover:text-gray-500 cursor-pointer">Publications</a>
             </li>
             <li>
-              <a onClick={() => navigate('/experience')} class="block py-1 px-3 text-current hover:text-gray-500">Experience</a>
+              <a onClick={() => navigate('/experience')} class="block py-1 px-3 text-current hover:text-gray-500 cursor-pointer">Experience</a>
             </li>
             <li>
-              <a onClick={() => navigate('/about')} class="block py-1 px-3 text-current hover:text-gray-500">About</a>
+              <a onClick={() => navigate('/theses')} class="block py-1 px-3 text-current hover:text-gray-500 cursor-pointer">Theses</a>
+            </li>
+            <li>
+              <a onClick={() => navigate('/about')} class="block py-1 px-3 text-current hover:text-gray-500 cursor-pointer">About</a>
             </li>
           </ul>
         </div>
