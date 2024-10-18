@@ -18,7 +18,7 @@ export default function Publications() {
           </li>
           <li>
             B. Byers, P. Emmenegger, J. Hunhevicz, D. Schumm, F. Heisel, D. Hall and C. De Wolf,
-            <a href="http://dx.doi.org/10.2139/ssrn.4946912" class="font-semibold text-indigo-500" target="_blank">Decentralized Phygital Identifiers for Circular Construction</a>
+            <a href="http://dx.doi.org/10.2139/ssrn.4946912" class="font-semibold text-indigo-500 cursor-pointer" target="_blank">Decentralized Phygital Identifiers for Circular Construction</a>
           </li>
           <li>
             K. O. E. Müller, D. Datsomor, D. Schumm, B. Rodrigues and B. Stiller,
@@ -34,25 +34,25 @@ export default function Publications() {
           </li>
           <li>
             A. R. Veres, D. Schumm, T. Grübl, K. O. E. Müller, B. Rodrigues and B. Stiller,
-            <a href="#" class="font-semibold text-indigo-500">“Demo: Secure Inventorying and Lifecycle Management of IoT with DLT”</a>,
+            <a href="https://ieeexplore.ieee.org/document/10639716" class="font-semibold text-indigo-500 cursor-pointer" target="_blank">“Demo: Secure Inventorying and Lifecycle Management of IoT with DLT”</a>,
             IEEE 49th Conference on Local Computer Networks (LCN),
             Caen, France, 2024.
           </li>
           <li>
             K. O. E. Müller, D. Schumm, E. Wallace, B. Rodrigues and B. Stiller,
-            <a href="https://ieeexplore.ieee.org/document/10575751/" class="font-semibold text-indigo-500" target="_blank">"SHIFT: a Security and Home Integration Framework for IoT"</a>,
+            <a href="https://ieeexplore.ieee.org/document/10575751/" class="font-semibold text-indigo-500 cursor-pointer" target="_blank">"SHIFT: a Security and Home Integration Framework for IoT"</a>,
             NOMS 2024-2024 IEEE Network Operations and Management Symposium,
             Seoul, Korea, Republic of, 2024, pp. 1-7.
           </li>
           <li>
             D. Schumm, R. Mukta and H. -y. Paik,
-            <a href="https://ieeexplore.ieee.org/document/10237019" class="font-semibold text-indigo-500" target="_blank">"Efficient Credential Revocation Using Cryptographic Accumulators"</a>,
+            <a href="https://ieeexplore.ieee.org/document/10237019" class="font-semibold text-indigo-500 cursor-pointer" target="_blank">"Efficient Credential Revocation Using Cryptographic Accumulators"</a>,
             2023 IEEE International Conference on Decentralized Applications and Infrastructures (DAPPS),
             Athens, Greece, 2023, pp. 127-134.
           </li>
           <li>
             D. Schumm, R. Mukta and H. -y. Paik,
-            <a href="https://ieeexplore.ieee.org/document/10174975" class="font-semibold text-indigo-500" target="_blank">"Efficient Credential Revocation Using Cryptographic Accumulators"</a>,
+            <a href="https://ieeexplore.ieee.org/document/10174975" class="font-semibold text-indigo-500 cursor-pointer" target="_blank">"Efficient Credential Revocation Using Cryptographic Accumulators"</a>,
             2023 IEEE International Conference on Blockchain and Cryptocurrency (ICBC),
             Dubai, United Arab Emirates, 2023, pp. 1-3.
           </li>
