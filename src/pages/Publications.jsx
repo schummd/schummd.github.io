@@ -17,6 +17,10 @@ export default function Publications() {
             De Gruyter, 2025 (Forthcoming).
           </li>
           <li>
+            B. Byers, P. Emmenegger, J. Hunhevicz, D. Schumm, F. Heisel, D. Hall and C. De Wolf,
+            <a href="http://dx.doi.org/10.2139/ssrn.4946912" class="font-semibold text-indigo-500" target="_blank">Decentralized Phygital Identifiers for Circular Construction</a>
+          </li>
+          <li>
             K. O. E. Müller, D. Datsomor, D. Schumm, B. Rodrigues and B. Stiller,
             <a href="#" class="font-semibold text-indigo-500">“Big Brother is Watching You: Non-Intrusive ZigBee User Profiling”</a>,
             2024 20th International Conference on Network and Service Management (CNSM),
