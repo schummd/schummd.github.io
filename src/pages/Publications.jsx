@@ -19,7 +19,7 @@ export default function Publications() {
           <li>
             B. Byers, P. Emmenegger, J. Hunhevicz, D. Schumm, F. Heisel, D. Hall and C. De Wolf,
             <a href="http://dx.doi.org/10.2139/ssrn.4946912" class="font-semibold text-indigo-500 cursor-pointer" target="_blank"> "Decentralized Phygital Identifiers for Circular Construction"</a>,
-            (In Review)
+            (In Review).
           </li>
           <li>
             K. O. E. Müller, D. Datsomor, D. Schumm, B. Rodrigues and B. Stiller,
