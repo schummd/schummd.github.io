@@ -49,6 +49,14 @@ export default function Experience() {
                 Supervising bachelor and master student theses and academic projects.
                 The list of completed theses can be found <a onClick={() => navigate('/theses')} class="cursor-pointer">here</a>.
               </div>
+              <div class="mt-2">
+                Teaching and providing support to a number of university courses, inclusing:
+                  <ul class="font-montserrat list-disc list-inside">
+                    <li>Certificate of Advanced Studies in Blockchain</li>
+                    <li>Protocols for Multimedia Communications</li>
+                    <li>Blockchains and Overlay Networks</li>
+                  </ul>
+              </div>
             </div>
           </div>
           <div class="col-span-2 border-b border-stone-300 my-4"/>
