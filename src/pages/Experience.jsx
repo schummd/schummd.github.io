@@ -41,9 +41,6 @@ export default function Experience() {
                 <a href="https://artwork.id" class="font-semibold text-indigo-500 cursor-pointer" target="_blank"> Artwork.ID</a>,
                 which offers capabilities to track artworks.
               </div>
-              <div>
-                Working along Trust Square on Artwork.ID project for artworks tracking.
-              </div>
               <div class="mt-2">
                 Planning, developing, and editing of academic publications. Reviewing of
                 publication submissions for IEEE Transactions on Network and Service Management.
