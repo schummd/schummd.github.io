@@ -50,7 +50,7 @@ export default function Experience() {
                 The list of completed theses can be found <a onClick={() => navigate('/theses')} class="cursor-pointer">here</a>.
               </div>
               <div class="mt-2">
-                Teaching and providing support to a number of university courses, inclusing:
+                Teaching and providing support to a number of university courses, including:
                   <ul class="font-montserrat list-disc list-inside">
                     <li>Certificate of Advanced Studies in Blockchain</li>
                     <li>Protocols for Multimedia Communications</li>
