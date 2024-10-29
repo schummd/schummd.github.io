@@ -38,7 +38,7 @@ export default function Experience() {
                 with companies such as STMicroelectronics, Collins Aerospace, and Trust Square.
                 The project is addressing cybersecurity for IoT-enables environments though a
                 multi-stakeholder sharing of threats and mitigations. Resulting in a project
-                <a href="https://artwork.id" class="font-semibold text-indigo-500 cursor-pointer" target="_blank">Artwork.ID</a>,
+                <a href="https://artwork.id" class="font-semibold text-indigo-500 cursor-pointer" target="_blank"> Artwork.ID</a>,
                 which offers capabilities to track artworks.
               </div>
               <div>
