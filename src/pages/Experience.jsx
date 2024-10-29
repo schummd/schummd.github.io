@@ -37,7 +37,12 @@ export default function Experience() {
                 Working on a research project sponsored by the EU Horizon and in collaboration
                 with companies such as STMicroelectronics, Collins Aerospace, and Trust Square.
                 The project is addressing cybersecurity for IoT-enables environments though a
-                multi-stakeholder sharing of threats and mitigations.
+                multi-stakeholder sharing of threats and mitigations. Resulting in a project
+                <a href="https://artwork.id" class="font-semibold text-indigo-500 cursor-pointer" target="_blank">Artwork.ID</a>,
+                which offers capabilities to track artworks.
+              </div>
+              <div>
+                Working along Trust Square on Artwork.ID project for artworks tracking.
               </div>
               <div class="mt-2">
                 Planning, developing, and editing of academic publications. Reviewing of
