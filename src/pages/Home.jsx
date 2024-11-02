@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 export default function Home() {
   const navigate = useNavigate();
   return(
-    <div class="flex flex-col items-center justify-center h-screen">
+    <div class="flex flex-col items-center justify-center h-screen w-screen">
       <div class="container w-4/5 md:w-3/5">
           <h1 class="font-montserrat font-semibold text-4xl mb-12">
             I am Daria, a front-end developer and computer science researcher.
