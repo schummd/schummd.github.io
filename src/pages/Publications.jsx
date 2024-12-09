@@ -1,6 +1,6 @@
 export default function Publications() {
   return(
-    <div class="flex flex-col items-center justify-center h-full">
+    <div class="flex flex-col items-center justify-center h-full w-screen">
       <div class="container w-4/5 md:w-3/5 my-28">
         <h1 class="font-montserrat font-medium text-3xl mb-12">Publications</h1>
 

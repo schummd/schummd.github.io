@@ -4,7 +4,7 @@ import photo from '../assets/profile_picture.png';
 export default function About() {
   const navigate = useNavigate();
   return(
-    <div class="flex flex-col items-center justify-center h-full md:h-screen">
+    <div class="flex flex-col items-center justify-center h-full w-screen md:h-screen">
       <div class="container w-4/5 md:w-3/5 my-28">
         <div class="grid md:gap-x-6 gap-y-1 font-montserrat">
           <div class="flex items-center col-span-2 md:col-span-1 justify-start">
