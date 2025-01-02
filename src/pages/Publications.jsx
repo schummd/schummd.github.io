@@ -6,30 +6,40 @@ export default function Publications() {
 
         <ul class="font-montserrat space-y-10 list-none list-inside">
           <li>
+            D. Schumm, C. E. von Rauscher, K.  O. E. Müller and B. Stiller,
+            <a href="#" class="font-semibold text-indigo-500"> "Metadata privacy in decentralised applications"</a>,
+            2025 (Under Review).
+          </li>
+          <li>
             D. Schumm, K. O. E. Müller and B.Stiller,
             <a href="#" class="font-semibold text-indigo-500"> "Are We There Yet? A Study of Decentralised Identity Applications"</a>,
-            2025 (In Submission).
+            2025 (Under Review).
           </li>
           <li>
             D. Schumm, B. Rodrigues and B. Stiller,
             <a href="#" class="font-semibold text-indigo-500"> "Digital Identity and Blockchain: A Comprehensive Overview of Approaches"</a>,
             in Blockchain and Society Handbook, John Flood and Lachlan Robb,
-            De Gruyter, 2025 (Forthcoming).
+            De Gruyter, 2025 (Under Review).
+          </li>
+          <li>
+            A. Aidoo, D. Schumm, T. Portmann, B. Rodrigues and B. Stiller,
+            <a href="#" class="font-semibold text-indigo-500"> "Federated Governance and Decentralized Identities for Participatory Sensing Data Mesh"</a>,
+            2025 (Under Review).
           </li>
           <li>
             B. Byers, P. Emmenegger, J. Hunhevicz, D. Schumm, F. Heisel, D. Hall and C. De Wolf,
             <a href="http://dx.doi.org/10.2139/ssrn.4946912" class="font-semibold text-indigo-500 cursor-pointer" target="_blank"> "Decentralized Phygital Identifiers for Circular Construction"</a>,
-            (In Review).
+            (Under Review).
           </li>
           <li>
             K. O. E. Müller, D. Datsomor, D. Schumm, B. Rodrigues and B. Stiller,
-            <a href="#" class="font-semibold text-indigo-500"> "Big Brother is Watching You: Non-Intrusive ZigBee User Profiling"</a>,
+            <a href="https://dl.ifip.org/db/conf/cnsm/cnsm2024/1571049085.pdf" class="font-semibold text-indigo-500"> "Big Brother is Watching You: Non-Intrusive ZigBee User Profiling"</a>,
             2024 20th International Conference on Network and Service Management (CNSM),
             Prague, Czech Republic, 2024.
           </li>
           <li>
             M. Leder, D. Schumm, B. Rodrigues and B. Stiller,
-            <a href="#" class="font-semibold text-indigo-500"> "AfriBit: A People-Oriented Wallet Fostering Financial Inclusion in Kibera"</a>,
+            <a href="https://ieeexplore.ieee.org/abstract/document/10732060" class="font-semibold text-indigo-500"> "AfriBit: A People-Oriented Wallet Fostering Financial Inclusion in Kibera"</a>,
             6th Conference on Blockchain Research & Applications for Innovative Networks and Services (BRAINS),
             Berlin, Germany, 2024.
           </li>

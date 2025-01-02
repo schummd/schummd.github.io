@@ -43,7 +43,8 @@ export default function Experience() {
               </div>
               <div class="mt-2">
                 Planning, developing, and editing of academic publications. Reviewing of
-                publication submissions for IEEE Transactions on Network and Service Management.
+                publication submissions for IEEE Transactions on Network and Service Management
+                and Journal of Communications and Networks.
               </div>
               <div class="mt-2">
                 Supervising bachelor and master student theses and academic projects.
