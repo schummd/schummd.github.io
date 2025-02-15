@@ -22,7 +22,7 @@ export default function Publications() {
             De Gruyter, 2025 (Under Review).
           </li>
           <li>
-            A. Aidoo, D. Schumm, T. Portmann, B. Rodrigues and B. Stiller,
+            D. Schumm, B. Rodrigues, A. Aidoo, T. Portmann and B. Stiller,
             <a href="#" class="font-semibold text-indigo-500"> "Federated Governance and Decentralized Identities for Participatory Sensing Data Mesh"</a>,
             2025 (Under Review).
           </li>

@@ -20,9 +20,9 @@ export default function Header() {
             <li>
               <a onClick={() => navigate('/experience')} class="block py-1 px-3 text-current hover:text-gray-500 cursor-pointer">Experience</a>
             </li>
-            <li>
+            {/* <li>
               <a onClick={() => navigate('/theses')} class="block py-1 px-3 text-current hover:text-gray-500 cursor-pointer">Theses</a>
-            </li>
+            </li> */}
             <li>
               <a onClick={() => navigate('/about')} class="block py-1 px-3 text-current hover:text-gray-500 cursor-pointer">About</a>
             </li>
