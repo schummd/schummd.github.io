@@ -5,7 +5,14 @@ export default function Publications() {
         <h1 class="font-montserrat font-medium text-3xl mb-12">Publications</h1>
 
         <ul class="font-montserrat space-y-10 list-none list-inside">
+          <h2 class="font-montserrat font-medium text-xl mb-12">First Author</h2>
           <li>
+            D. Schumm, B. Rodrigues and B. Stiller,
+            <a href="#" class="font-semibold text-indigo-500"> "Digital Identity and Blockchain: A Comprehensive Overview of Approaches"</a>,
+            in Blockchain and Society Handbook, John Flood and Lachlan Robb,
+            De Gruyter, 2025.
+          </li>
+          {/* <li>
             D. Schumm, C. E. von Rauscher, K.  O. E. Müller and B. Stiller,
             <a href="#" class="font-semibold text-indigo-500"> "Metadata privacy in decentralised applications"</a>,
             2025 (Under Review).
@@ -16,12 +23,6 @@ export default function Publications() {
             2025 (Under Review).
           </li>
           <li>
-            D. Schumm, B. Rodrigues and B. Stiller,
-            <a href="#" class="font-semibold text-indigo-500"> "Digital Identity and Blockchain: A Comprehensive Overview of Approaches"</a>,
-            in Blockchain and Society Handbook, John Flood and Lachlan Robb,
-            De Gruyter, 2025 (Under Review).
-          </li>
-          <li>
             D. Schumm, B. Rodrigues, A. Aidoo, T. Portmann and B. Stiller,
             <a href="#" class="font-semibold text-indigo-500"> "Federated Governance and Decentralized Identities for Participatory Sensing Data Mesh"</a>,
             2025 (Under Review).
@@ -30,7 +31,22 @@ export default function Publications() {
             B. Byers, P. Emmenegger, J. Hunhevicz, D. Schumm, F. Heisel, D. Hall and C. De Wolf,
             <a href="http://dx.doi.org/10.2139/ssrn.4946912" class="font-semibold text-indigo-500 cursor-pointer" target="_blank"> "Decentralized Phygital Identifiers for Circular Construction"</a>,
             (Under Review).
+          </li> */}
+
+          <li>
+            D. Schumm, R. Mukta and H. -y. Paik,
+            <a href="https://ieeexplore.ieee.org/document/10237019" class="font-semibold text-indigo-500 cursor-pointer" target="_blank"> "Efficient Credential Revocation Using Cryptographic Accumulators"</a>,
+            2023 IEEE International Conference on Decentralized Applications and Infrastructures (DAPPS),
+            Athens, Greece, 2023, pp. 127-134.
           </li>
+          <li>
+            D. Schumm, R. Mukta and H. -y. Paik,
+            <a href="https://ieeexplore.ieee.org/document/10174975" class="font-semibold text-indigo-500 cursor-pointer" target="_blank"> "Efficient Credential Revocation Using Cryptographic Accumulators"</a>,
+            2023 IEEE International Conference on Blockchain and Cryptocurrency (ICBC),
+            Dubai, United Arab Emirates, 2023, pp. 1-3.
+          </li>
+
+          <h2 class="font-montserrat font-medium text-xl mb-12">Other Author</h2>
           <li>
             K. O. E. Müller, D. Datsomor, D. Schumm, B. Rodrigues and B. Stiller,
             <a href="https://dl.ifip.org/db/conf/cnsm/cnsm2024/1571049085.pdf" class="font-semibold text-indigo-500"> "Big Brother is Watching You: Non-Intrusive ZigBee User Profiling"</a>,
@@ -54,18 +70,6 @@ export default function Publications() {
             <a href="https://ieeexplore.ieee.org/document/10575751/" class="font-semibold text-indigo-500 cursor-pointer" target="_blank"> "SHIFT: a Security and Home Integration Framework for IoT"</a>,
             NOMS 2024-2024 IEEE Network Operations and Management Symposium,
             Seoul, Korea, Republic of, 2024, pp. 1-7.
-          </li>
-          <li>
-            D. Schumm, R. Mukta and H. -y. Paik,
-            <a href="https://ieeexplore.ieee.org/document/10237019" class="font-semibold text-indigo-500 cursor-pointer" target="_blank"> "Efficient Credential Revocation Using Cryptographic Accumulators"</a>,
-            2023 IEEE International Conference on Decentralized Applications and Infrastructures (DAPPS),
-            Athens, Greece, 2023, pp. 127-134.
-          </li>
-          <li>
-            D. Schumm, R. Mukta and H. -y. Paik,
-            <a href="https://ieeexplore.ieee.org/document/10174975" class="font-semibold text-indigo-500 cursor-pointer" target="_blank"> "Efficient Credential Revocation Using Cryptographic Accumulators"</a>,
-            2023 IEEE International Conference on Blockchain and Cryptocurrency (ICBC),
-            Dubai, United Arab Emirates, 2023, pp. 1-3.
           </li>
         </ul>
       </div>
