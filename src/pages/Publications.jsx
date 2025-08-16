@@ -7,26 +7,29 @@ export default function Publications() {
         <ul class="font-montserrat space-y-10 list-none list-inside">
           <h2 class="font-montserrat font-medium text-xl mb-12">First Author</h2>
           <li>
-            D. Schumm, B. Rodrigues and B. Stiller,
-            <a href="#" class="font-semibold text-indigo-500"> "Digital Identity and Blockchain: A Comprehensive Overview of Approaches"</a>,
-            in Blockchain and Society Handbook, John Flood and Lachlan Robb,
-            De Gruyter, 2025.
-          </li>
-          {/* <li>
-            D. Schumm, C. E. von Rauscher, K.  O. E. Müller and B. Stiller,
-            <a href="#" class="font-semibold text-indigo-500"> "Metadata privacy in decentralised applications"</a>,
-            2025 (Under Review).
+            D. Schumm, K. O. E. Müller and B.Stiller,
+            <a href="https://ieeexplore.ieee.org/document/11078258" class="font-semibold text-indigo-500" target="_blank"> "Are We There Yet? A Study of Decentralized Identity Applications"</a>,
+            IEEE Access, vol. 13, pp. 125232-125259, 2025.
           </li>
           <li>
-            D. Schumm, K. O. E. Müller and B.Stiller,
-            <a href="#" class="font-semibold text-indigo-500"> "Are We There Yet? A Study of Decentralised Identity Applications"</a>,
-            2025 (Under Review).
+            D. Schumm, C. E. von Rauscher, K.  O. E. Müller and B. Stiller,
+            <a href="https://ieeexplore.ieee.org/document/11114450" class="font-semibold text-indigo-500" target="_blank"> "Metadata Privacy in Decentralized Identity Applications"</a>,
+            2025 IEEE International Conference on Blockchain and Cryptocurrency (ICBC),
+            Pisa, Italy, 2025, pp. 1-3.
           </li>
           <li>
             D. Schumm, B. Rodrigues, A. Aidoo, T. Portmann and B. Stiller,
-            <a href="#" class="font-semibold text-indigo-500"> "Federated Governance and Decentralized Identities for Participatory Sensing Data Mesh"</a>,
-            2025 (Under Review).
+            <a href="https://ieeexplore.ieee.org/document/11114524" class="font-semibold text-indigo-500" target="_blank"> "Federated Governance and Decentralized Identities for Participatory Sensing Data Mesh"</a>,
+            2025 IEEE International Conference on Blockchain and Cryptocurrency (ICBC),
+            Pisa, Italy, 2025, pp. 1-3.
           </li>
+          <li>
+            D. Schumm, B. Rodrigues and B. Stiller,
+            <a href="#" class="font-semibold text-indigo-500" target="_blank"> "Digital Identity and Blockchain: A Comprehensive Overview of Approaches"</a>,
+            in Blockchain and Society Handbook, John Flood and Lachlan Robb,
+            De Gruyter, 2025.
+          </li>
+          {/*
           <li>
             B. Byers, P. Emmenegger, J. Hunhevicz, D. Schumm, F. Heisel, D. Hall and C. De Wolf,
             <a href="http://dx.doi.org/10.2139/ssrn.4946912" class="font-semibold text-indigo-500 cursor-pointer" target="_blank"> "Decentralized Phygital Identifiers for Circular Construction"</a>,
