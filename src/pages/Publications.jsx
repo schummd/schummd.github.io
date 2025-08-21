@@ -29,13 +29,6 @@ export default function Publications() {
             in Blockchain and Society Handbook, John Flood and Lachlan Robb,
             De Gruyter, 2025.
           </li>
-          {/*
-          <li>
-            B. Byers, P. Emmenegger, J. Hunhevicz, D. Schumm, F. Heisel, D. Hall and C. De Wolf,
-            <a href="http://dx.doi.org/10.2139/ssrn.4946912" class="font-semibold text-indigo-500 cursor-pointer" target="_blank"> "Decentralized Phygital Identifiers for Circular Construction"</a>,
-            (Under Review).
-          </li> */}
-
           <li>
             D. Schumm, R. Mukta and H. -y. Paik,
             <a href="https://ieeexplore.ieee.org/document/10237019" class="font-semibold text-indigo-500 cursor-pointer" target="_blank"> "Efficient Credential Revocation Using Cryptographic Accumulators"</a>,
@@ -50,6 +43,11 @@ export default function Publications() {
           </li>
 
           <h2 class="font-montserrat font-medium text-xl mb-12">Other Author</h2>
+          <li>
+            B. Byers, P. Emmenegger, J. Hunhevicz, D. Schumm, F. Heisel, D. Hall and C. De Wolf,
+            <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4946912" class="font-semibold text-indigo-500 cursor-pointer" target="_blank"> "Decentralized Phygital Identifiers for Circular Construction"</a>,
+            (Under Review).
+          </li>
           <li>
             K. O. E. Müller, D. Datsomor, D. Schumm, B. Rodrigues and B. Stiller,
             <a href="https://dl.ifip.org/db/conf/cnsm/cnsm2024/1571049085.pdf" class="font-semibold text-indigo-500"> "Big Brother is Watching You: Non-Intrusive ZigBee User Profiling"</a>,
@@ -73,6 +71,12 @@ export default function Publications() {
             <a href="https://ieeexplore.ieee.org/document/10575751/" class="font-semibold text-indigo-500 cursor-pointer" target="_blank"> "SHIFT: a Security and Home Integration Framework for IoT"</a>,
             NOMS 2024-2024 IEEE Network Operations and Management Symposium,
             Seoul, Korea, Republic of, 2024, pp. 1-7.
+          </li>
+          <li>
+            S. Sebastio, S. Matheu, A. Skarmeta, R. Orizio, D. Karras, D. Schumm, B. Stiller, R. Mancilla, F. Giampaolo, S. Tuck, T. Bocek, V. Cuomo, R. Atoui, S. Beena, R. Nardone, A. Cilardo, D. Sharma, R. Bohara and J. Parra-Domínguez,
+            <a href="https://doi.org/10.1007/978-3-031-76459-2_26" class="font-semibold text-indigo-500 cursor-pointer" target="_blank"> "Cybersecurity Management Throughout the IoT Systems Lifecycle – The CERTIFY Approach"</a>,
+            In: Mehmood, R., et al. Distributed Computing and Artificial Intelligence, Special Sessions I, 21st International Conference. DCAI 2024.
+            Lecture Notes in Networks and Systems, vol 1198. Springer, Cham.
           </li>
         </ul>
       </div>
