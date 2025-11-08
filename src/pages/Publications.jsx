@@ -46,7 +46,7 @@ export default function Publications() {
           <li>
             B. Byers, P. Emmenegger, J. Hunhevicz, D. Schumm, F. Heisel, D. Hall and C. De Wolf,
             <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4946912" className="font-semibold text-indigo-500 cursor-pointer" target="_blank"> "Decentralized Phygital Identifiers for Circular Construction"</a>,
-            (Under Review).
+            Construction Innovation, 2025.
           </li>
           <li>
             K. O. E. Müller, D. Datsomor, D. Schumm, B. Rodrigues and B. Stiller,
