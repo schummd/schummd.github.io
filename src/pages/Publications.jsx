@@ -7,9 +7,20 @@ export default function Publications() {
         <ul className="font-montserrat space-y-10 list-none list-inside">
           <h2 className="font-montserrat font-medium text-xl mb-12">First Author</h2>
           <li>
+            D. Schumm, V. Velrajah and B.Stiller,
+            <a href="" className="font-semibold text-indigo-500" target="_blank">"No Matter of Decentralization: \\What is Important to Users in Decentralized and Self-Sovereign Identities?</a>,
+            Information Processing & Management, 2026, Under Review.
+          </li>
+          <li>
             D. Schumm, K. O. E. Müller and B.Stiller,
             <a href="https://ieeexplore.ieee.org/document/11078258" className="font-semibold text-indigo-500" target="_blank">"Are We There Yet? A Study of Decentralized Identity Applications"</a>,
             IEEE Access, vol. 13, pp. 125232-125259, 2025.
+          </li>
+          <li>
+            D. Schumm, G. Stegmaier, C. E. von Rauscher, K.  O. E. Müller and B. Stiller,
+            <a href="" className="font-semibold text-indigo-500" target="_blank"> "Preserving Privacy with Homomorphic Encryption and Comparison Operation in Decentralized Identity"</a>,
+            7th Conference on Blockchain Research & Applications for Innovative Networks and Services (BRAINS),
+            Zürich, Switzerland, 2025, pp. 1-3.
           </li>
           <li>
             D. Schumm, C. E. von Rauscher, K.  O. E. Müller and B. Stiller,
@@ -27,7 +38,7 @@ export default function Publications() {
             D. Schumm, B. Rodrigues and B. Stiller,
             <a href="#" className="font-semibold text-indigo-500" target="_blank"> "Digital Identity and Blockchain: A Comprehensive Overview of Approaches"</a>,
             in Blockchain and Society Handbook, John Flood and Lachlan Robb,
-            De Gruyter, 2025.
+            De Gruyter, 2026.
           </li>
           <li>
             D. Schumm, R. Mukta and H. -y. Paik,
@@ -45,8 +56,14 @@ export default function Publications() {
           <h2 className="font-montserrat font-medium text-xl mb-12">Other Author</h2>
           <li>
             B. Byers, P. Emmenegger, J. Hunhevicz, D. Schumm, F. Heisel, D. Hall and C. De Wolf,
-            <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4946912" className="font-semibold text-indigo-500 cursor-pointer" target="_blank"> "Decentralized Phygital Identifiers for Circular Construction"</a>,
-            Construction Innovation, 2025.
+            <a href="https://doi.org/10.1108/CI-02-2025-0074" className="font-semibold text-indigo-500 cursor-pointer" target="_blank"> "Decentralized Phygital Identifiers for Circular Construction"</a>,
+            Construction Innovation: Information Process Management, 1-35, 2025.
+          </li>
+          <li>
+            D. Jing, D. Schumm, K.  O. E. Müller and B. Stiller,
+            <a href="" className="font-semibold text-indigo-500" target="_blank"> "Designing Privacy Notices for Self-Sovereign Identity Applications"</a>,
+            7th Conference on Blockchain Research & Applications for Innovative Networks and Services (BRAINS),
+            Zürich, Switzerland, 2025, pp. 1-3.
           </li>
           <li>
             K. O. E. Müller, D. Datsomor, D. Schumm, B. Rodrigues and B. Stiller,
