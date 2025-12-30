@@ -12,6 +12,12 @@ export default function Publications() {
             Information Processing & Management, 2026, Under Review.
           </li>
           <li>
+            D. Schumm, B. Rodrigues and B. Stiller,
+            <a href="#" className="font-semibold text-indigo-500" target="_blank"> "Digital Identity and Blockchain: A Comprehensive Overview of Approaches"</a>,
+            in Blockchain and Society Handbook, John Flood and Lachlan Robb,
+            De Gruyter, 2026.
+          </li>
+          <li>
             D. Schumm, K. O. E. Müller and B.Stiller,
             <a href="https://ieeexplore.ieee.org/document/11078258" className="font-semibold text-indigo-500" target="_blank">"Are We There Yet? A Study of Decentralized Identity Applications"</a>,
             IEEE Access, vol. 13, pp. 125232-125259, 2025.
@@ -33,12 +39,6 @@ export default function Publications() {
             <a href="https://ieeexplore.ieee.org/document/11114524" className="font-semibold text-indigo-500" target="_blank"> "Federated Governance and Decentralized Identities for Participatory Sensing Data Mesh"</a>,
             2025 IEEE International Conference on Blockchain and Cryptocurrency (ICBC),
             Pisa, Italy, 2025, pp. 1-3.
-          </li>
-          <li>
-            D. Schumm, B. Rodrigues and B. Stiller,
-            <a href="#" className="font-semibold text-indigo-500" target="_blank"> "Digital Identity and Blockchain: A Comprehensive Overview of Approaches"</a>,
-            in Blockchain and Society Handbook, John Flood and Lachlan Robb,
-            De Gruyter, 2026.
           </li>
           <li>
             D. Schumm, R. Mukta and H. -y. Paik,
