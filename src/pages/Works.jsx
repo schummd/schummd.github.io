@@ -3,7 +3,7 @@ import iteratio from '../assets/iteratio.png';
 import photography from '../assets/photography.png';
 import resume from '../assets/resume.png';
 import packetpuddle from '../assets/packetpuddle.png';
-import electrical from '../assets/elctricalportfolio.png';
+import electrical from '../assets/electricalportfolio.png';
 
 export default function Works() {
   const navigate = useNavigate();
