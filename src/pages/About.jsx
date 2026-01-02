@@ -20,17 +20,18 @@ export default function About() {
 
           <div className="col-span-2 mt-8">
             <p className="mb-2">My name is Daria Schumm.</p>
-            <p className="mb-2">Since 2023 I been living in Zürch, Switzerland, and working as a researcher at the
-            University of Zürich.</p>
+            <p className="mb-2">
+              Since 2023 I have been living in Zürich, Switzerland, and working
+              as a researcher at the Department of Informatics, University of Zürich.</p>
             <p className="mb-2">
               My research focuses on understanding and evaluating complex technical
               systems by examining the relationship between their conceptual models
-              and their implemented behavior.
+              and their implemented behaviour.
             </p>
             <p className="mb-2">
               I study how responsibilities are distributed within systems, how
               requirements are specified and assessed, and how abstract roles are
-              operationalized in technical architectures.
+              operationalised in technical architectures.
             </p>
             <p className="mb-2">
               I am particularly interested in cases where systems assert properties

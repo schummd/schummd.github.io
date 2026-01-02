@@ -11,7 +11,7 @@ import About from "./pages/About";
 export default function App() {
   return (
     <HashRouter>
-      <div class="flex flex-col w-full min-h-screen bg-gradient-to-t from-purple-200 to-neutral-50">
+      <div className="flex flex-col w-full min-h-screen bg-gradient-to-t from-purple-200 to-neutral-50">
         <Header />
         <Routes>
           <Route path='/' element={<Home />}/>
