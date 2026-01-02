@@ -2,6 +2,8 @@ import { useNavigate } from 'react-router-dom';
 import iteratio from '../assets/iteratio.png';
 import photography from '../assets/photography.png';
 import resume from '../assets/resume.png';
+import packetpuddle from '../assets/packetpuddle.png';
+import electrical from '../assets/elctricalportfolio.png';
 
 export default function Works() {
   const navigate = useNavigate();
@@ -12,6 +14,57 @@ export default function Works() {
 
         <div className="grid md:gap-x-6 gap-y-1 font-montserrat">
 
+          {/* Electrical Portfolio */}
+          <div className="col-span-2 md:col-span-1 mb-2">
+            <img className="h-58" src={electrical} alt="iteratio website"/>
+          </div>
+          <div className="col-span-2 md:col-span-1">
+            <div className="grid col-span-2 md:col-span-1 gap-1">
+              <div>
+                <a href="https://dc.ac.nz" className="font-semibold text-indigo-500" target="_blank">
+                  Electrical Portfolio
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-4 inline-block ml-1">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
+                  </svg>
+                </a>
+              </div>
+              <div className="text-slate-500">Javascript, React, Tailwind</div>
+              <div className="mt-2">
+                A personal portfio website for electritian, featuring highlights
+                of the work experience and certification on the home page. An
+                extended portfolio pages show photographs of the work, each
+                sorted based on time and location.
+              </div>
+            </div>
+          </div>
+          <div className="col-span-2 border-b-0 border-stone-300 my-4"/>
+
+          {/* PacketPuddle */}
+          <div className="col-span-2 md:col-span-1 mb-2">
+            <img className="h-58" src={packetpuddle} alt="iteratio website"/>
+          </div>
+          <div className="col-span-2 md:col-span-1">
+            <div className="grid col-span-2 md:col-span-1 gap-1">
+              <div>
+                <a href="https://packetpuddle.netlify.app" className="font-semibold text-indigo-500" target="_blank">
+                  PacketPuddle
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-4 inline-block ml-1">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
+                  </svg>
+                </a>
+              </div>
+              <div className="text-slate-500">Javascript, React, Tailwind</div>
+              <div className="mt-2">
+                A blog-style website about computer science topics, ranging from
+                database management and data structures, to blockchain and networks.
+                Featuring advanced categorisation, search functionality, individual
+                blog posts pages, and home page displaying current articles.
+              </div>
+            </div>
+          </div>
+          <div className="col-span-2 border-b-0 border-stone-300 my-4"/>
+
+          {/* Iteratio */}
           <div className="col-span-2 md:col-span-1 mb-2">
             <img className="h-58" src={iteratio} alt="iteratio website"/>
           </div>
@@ -35,6 +88,7 @@ export default function Works() {
           </div>
           <div className="col-span-2 border-b-0 border-stone-300 my-4"/>
 
+          {/* Photography */}
           <div className="col-span-2 md:col-span-1 mb-2">
             <img className="h-58 " src={photography} alt="iteratio website"/>
           </div>
@@ -58,6 +112,7 @@ export default function Works() {
           </div>
           <div className="col-span-2 border-b-0 border-stone-300 my-4"/>
 
+          {/* This website */}
           <div className="col-span-2 md:col-span-1 mb-2">
             <img className="h-58 " src={resume} alt="iteratio website"/>
           </div>

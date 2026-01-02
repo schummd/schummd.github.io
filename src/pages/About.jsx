@@ -23,20 +23,47 @@ export default function About() {
             <p className="mb-2">Since 2023 I been living in Zürch, Switzerland, and working as a researcher at the
             University of Zürich.</p>
             <p className="mb-2">
-              My research focuses on decentralised identities and blockchain.
-              Particularly, I am investigating the reasons behind slow adoption of the decentralised technologies,
-              by looking not only at the technological limitations, but also social.
+              My research focuses on understanding and evaluating complex technical
+              systems by examining the relationship between their conceptual models
+              and their implemented behavior.
             </p>
             <p className="mb-2">
+              I study how responsibilities are distributed within systems, how
+              requirements are specified and assessed, and how abstract roles are
+              operationalized in technical architectures.
+            </p>
+            <p className="mb-2">
+              I am particularly interested in cases where systems assert properties
+              such as security, trust, or privacy without providing corresponding
+              technical guarantees. Through this work, I identify recurring points
+              at which conceptual models fracture when confronted with implementation
+              realities.
+            </p>
+            {/* <p className="mb-2">
               In a spare time I am a photographer. Have a look at the <a href="https://dariaschummphoto.netlify.app/" target="_blank">collection of my works</a>.
+            </p> */}
+          </div>
+
+          <div className="col-span-2 mt-4">
+            <p className="mb-2 text-slate-500">
+              <i>Keywords:</i> conceptual modelling, requirements engineering,
+              software systems evaluation
             </p>
           </div>
 
-          <div className="col-span-2">
-            <a onClick={() => navigate('/experience')} className="inline-flex items-center py-2.5 font-montserrat font-normal text-current hover:text-gray-500">
-              Find out more
-              <svg className="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                  <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+          <div className="col-span-2 flex flex-row gap-5">
+
+            <a onClick={() => navigate('/experience')} className="py-2.5 font-semibold text-indigo-500">
+              Resume
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4 inline-block ml-1">
+                <path strokeLinecap="round" strokeLinejoin="round" d="m18.375 12.739-7.693 7.693a4.5 4.5 0 0 1-6.364-6.364l10.94-10.94A3 3 0 1 1 19.5 7.372L8.552 18.32m.009-.01-.01.01m5.699-9.941-7.81 7.81a1.5 1.5 0 0 0 2.112 2.13" />
+              </svg>
+            </a>
+
+            <a onClick={() => navigate('/publications')} className="py-2.5 font-semibold text-indigo-500">
+              Publications
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4 inline-block ml-1">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M12 7.5h1.5m-1.5 3h1.5m-7.5 3h7.5m-7.5 3h7.5m3-9h3.375c.621 0 1.125.504 1.125 1.125V18a2.25 2.25 0 0 1-2.25 2.25M16.5 7.5V18a2.25 2.25 0 0 0 2.25 2.25M16.5 7.5V4.875c0-.621-.504-1.125-1.125-1.125H4.125C3.504 3.75 3 4.254 3 4.875V18a2.25 2.25 0 0 0 2.25 2.25h13.5M6 7.5h3v3H6v-3Z" />
               </svg>
             </a>
           </div>

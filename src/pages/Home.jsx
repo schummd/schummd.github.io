@@ -6,7 +6,8 @@ export default function Home() {
     <div className="flex flex-col items-center justify-center h-screen w-screen">
       <div className="container w-4/5 md:w-3/5">
           <h1 className="font-montserrat font-semibold text-4xl mb-12">
-            I am Daria, a computer science researcher and front-end developer.
+            I am Daria, a researcher focused on developing and applying analytical
+            frameworks to complex technical systems.
           </h1>
           <p className="font-montserrat text-xl mb-12">
             Currently I hold a position at the University of Zürich.

@@ -9,7 +9,7 @@ export default function Experience() {
 
         <div className="grid md:gap-x-6 gap-y-1 font-montserrat">
           {/* freelance */}
-          <div className="col-span-2 md:col-span-1 mb-2">May 2023 - Current</div>
+          {/* <div className="col-span-2 md:col-span-1 mb-2">May 2023 - Current</div>
           <div className="col-span-2 md:col-span-1">
             <div className="grid col-span-2 md:col-span-1 gap-1">
               <div><h2 className="font-semibold text-indigo-500">Front-End Developer</h2></div>
@@ -25,7 +25,7 @@ export default function Experience() {
               </div>
             </div>
           </div>
-          <div className="col-span-2 border-b border-stone-300 my-4"/>
+          <div className="col-span-2 border-b border-stone-300 my-4"/> */}
 
           {/* UZH */}
           <div className="col-span-2 md:col-span-1 mb-2">July 2023 - Current</div>
@@ -42,11 +42,12 @@ export default function Experience() {
                 which offers capabilities to track artworks.
               </div>
               <div className="mt-2">
-                Planning, developing, and editing of academic <a onClick={() => navigate('/experience')}>publications</a>.
+                Planning, developing, and editing of academic <a onClick={() => navigate('/publications')} className='cursor-pointer'>publications</a>.
               </div>
               <div className="mt-2">
                 Peer reviewing publication submissions for:
                 <ul className="font-montserrat list-disc list-inside">
+                  <li>Journal of Information Processing & Management</li>
                   <li>IEEE Transactions on Network and Service Management</li>
                   <li>IEEE Journal of Social Computing</li>
                   <li>IEEE Journal of Communications and Networks</li>
@@ -57,6 +58,7 @@ export default function Experience() {
               </div>
               <div className="mt-2">
                 Supervising bachelor and master student theses and academic student projects.
+                As of today, supervised a total of 8 bachelor and 6 master students.
               </div>
               <div className="mt-2">
                 Teaching and providing support to a number of university courses, including:
@@ -141,12 +143,25 @@ export default function Experience() {
         <h2 className="font-montserrat font-medium text-3xl my-14">Education</h2>
 
         <div className="grid md:gap-x-6 gap-y-1 font-montserrat">
+          {/* UC */}
+          <div className="col-span-2 md:col-span-1 mb-2">February 2025 - current</div>
+          <div className="col-span-2 md:col-span-1">
+            <div className="grid col-span-2 md:col-span-1 gap-1">
+              <div><h2 className="font-semibold text-indigo-500">Graduate Diploma in Psychological Science</h2></div>
+              <div className="text-slate-500">University of Canterbury (Christchurch, New Zealand)</div>
+            </div>
+          </div>
+          <div className="col-span-2 border-b border-stone-300 my-4"/>
+
           {/* UZH */}
           <div className="col-span-2 md:col-span-1 mb-2">July 2023 - current</div>
           <div className="col-span-2 md:col-span-1">
             <div className="grid col-span-2 md:col-span-1 gap-1">
               <div><h2 className="font-semibold text-indigo-500">Doctor of Philosophy</h2></div>
               <div className="text-slate-500">University of Zürich (Zürich, Switzerland)</div>
+              {/* <div className="mt-2">
+                Thesis on evaluating decentralized identity systems.
+              </div> */}
             </div>
           </div>
           <div className="col-span-2 border-b border-stone-300 my-4"/>
