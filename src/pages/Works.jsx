@@ -30,7 +30,7 @@ export default function Works() {
               </div>
               <div className="text-slate-500">Javascript, React, Tailwind</div>
               <div className="mt-2">
-                A personal portfio website for electritian, featuring highlights
+                A personal portfio website for electrician, featuring highlights
                 of the work experience and certification on the home page. An
                 extended portfolio pages show photographs of the work, each
                 sorted based on time and location.
