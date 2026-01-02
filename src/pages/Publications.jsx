@@ -2,6 +2,7 @@ export default function Publications() {
   return(
     <div className="flex flex-col items-center justify-center h-full w-screen">
       <div className="container w-4/5 md:w-3/5 my-28">
+
         <h1 className="font-montserrat font-medium text-3xl mb-12">Publications</h1>
 
         <ul className="font-montserrat space-y-10 list-none list-inside">
