@@ -7,6 +7,7 @@ import Publications from "./pages/Publications";
 import Experience from "./pages/Experience";
 import About from "./pages/About";
 // import Theses from "./pages/Theses";
+// import Blog from "./pages/Blog";
 
 export default function App() {
   return (
@@ -20,6 +21,7 @@ export default function App() {
           <Route path='/experience' element={<Experience />}/>
           {/* <Route path='/theses' element={<Theses />}/> */}
           <Route path='/about' element={<About />}/>
+          {/* <Route path='/blog' element={<Blog />}/> */}
         </Routes>
       </div>
     </HashRouter>

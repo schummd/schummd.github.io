@@ -26,6 +26,9 @@ export default function Header() {
             <li>
               <a onClick={() => navigate('/about')} className="block py-1 px-3 text-current hover:text-gray-500 cursor-pointer">About</a>
             </li>
+            {/* <li>
+              <a onClick={() => navigate('/blog')} className="block py-1 px-3 text-current hover:text-gray-500 cursor-pointer">Blog</a>
+            </li> */}
           </ul>
         </div>
       </div>

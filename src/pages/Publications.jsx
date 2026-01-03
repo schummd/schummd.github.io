@@ -9,8 +9,8 @@ export default function Publications() {
           <h2 className="font-montserrat font-medium text-xl mb-12">First Author</h2>
           <li>
             D. Schumm, V. Velrajah and B.Stiller,
-            <a href="" className="font-semibold text-indigo-500" target="_blank">"No Matter of Decentralization: What is Important to Users in Decentralized and Self-Sovereign Identities?</a>,
-            Information Processing & Management, 2026, Under Review.
+            <a href="" className="font-semibold text-indigo-500" target="_blank">"No Matter of Decentralization: What is Important to Users in Decentralized and Self-Sovereign Identities?"</a>,
+            2026, Under Review.
           </li>
           <li>
             D. Schumm, B. Rodrigues and B. Stiller,
