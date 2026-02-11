@@ -1,5 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 import photo from '../assets/profile_picture.png';
+import resume from '../assets/CV.pdf';
 
 export default function About() {
   const navigate = useNavigate();
@@ -21,8 +22,8 @@ export default function About() {
           <div className="col-span-2 mt-8">
             <p className="mb-2">My name is Daria Schumm.</p>
             <p className="mb-2">
-              Since 2023 I have been living in Zürich, Switzerland, and working
-              as a researcher at the Department of Informatics, University of Zürich.</p>
+              Since 2023 I have been a part of the Communications Systems Group at
+              the Department of Informatics, University of Zürich.</p>
             <p className="mb-2">
               My research focuses on understanding and evaluating complex technical
               systems by examining the relationship between their conceptual models
@@ -46,25 +47,30 @@ export default function About() {
           </div>
 
           <div className="col-span-2 mt-4">
-            <p className="hidden md:block mb-2 text-slate-500">
-              <i>Keywords:</i> conceptual modelling, requirements engineering,
-              software systems evaluation
+            <p className="hidden md:block mb-2">
+              <b>Keywords:</b> Requirements Engineering, Decentralized Identity, Blockchain
             </p>
-            <ul className='list-disc list-inside md:hidden mb-2 text-slate-500'>
-              <p><i>Keywords:</i></p>
-              <li>Conceptual modelling</li>
+            <ul className='list-disc list-inside md:hidden mb-2'>
+              <p><b>Keywords:</b></p>
+              <li>Blockchain</li>
+              <li>Decentralized Identity</li>
               <li>Requirements engineering</li>
-              <li>Software systems evaluation</li>
             </ul>
           </div>
 
           <div className="col-span-2 flex flex-col md:flex-row md:gap-5">
 
-            <a onClick={() => navigate('/experience')} className="pt-2.5 md:py-2.5 font-semibold text-indigo-500 cursor-pointer">
+            {/* <a onClick={() => navigate('/experience')} className="pt-2.5 md:py-2.5 font-semibold text-indigo-500 cursor-pointer">
               Resume
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4 inline-block ml-1">
                 <path strokeLinecap="round" strokeLinejoin="round" d="m18.375 12.739-7.693 7.693a4.5 4.5 0 0 1-6.364-6.364l10.94-10.94A3 3 0 1 1 19.5 7.372L8.552 18.32m.009-.01-.01.01m5.699-9.941-7.81 7.81a1.5 1.5 0 0 0 2.112 2.13" />
               </svg>
+            </a> */}
+            <a href={resume} target='_black' className="md:py-2.5 font-semibold text-indigo-500 cursor-pointer">
+                Resume
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4 inline-block ml-1">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3" />
+                </svg>
             </a>
 
             <a onClick={() => navigate('/publications')} className="md:py-2.5 font-semibold text-indigo-500 cursor-pointer">

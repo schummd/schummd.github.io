@@ -8,6 +8,8 @@ import Experience from "./pages/Experience";
 import About from "./pages/About";
 // import Theses from "./pages/Theses";
 // import Blog from "./pages/Blog";
+// import Teaching from "./pages/Teaching";
+import Services from "./pages/Services";
 
 export default function App() {
   return (
@@ -19,6 +21,8 @@ export default function App() {
           <Route path='works' element={<Works />}/>
           <Route path='/publications' element={<Publications />}/>
           <Route path='/experience' element={<Experience />}/>
+          {/* <Route path='/teaching' element={<Teaching />}/> */}
+          <Route path='/services' element={<Services />}/>
           {/* <Route path='/theses' element={<Theses />}/> */}
           <Route path='/about' element={<About />}/>
           {/* <Route path='/blog' element={<Blog />}/> */}

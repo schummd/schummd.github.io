@@ -5,7 +5,7 @@ export default function Experience() {
   return(
     <div className="flex flex-col items-center justify-center h-full w-screen">
       <div className="container w-4/5 md:w-3/5 my-28">
-        <h1 className="font-montserrat font-medium text-3xl mb-12">Experience</h1>
+        <h1 className="font-montserrat font-medium text-3xl my-12">Experience</h1>
 
         <div className="grid md:gap-x-6 gap-y-1 font-montserrat">
           {/* freelance */}
@@ -44,7 +44,7 @@ export default function Experience() {
               <div className="mt-2">
                 Planning, developing, and editing of academic <a onClick={() => navigate('/publications')} className='cursor-pointer'>publications</a>.
               </div>
-              <div className="mt-2">
+              {/* <div className="mt-2">
                 Peer reviewing publication submissions for:
                 <ul className="font-montserrat list-disc list-inside">
                   <li>Journal of Information Processing & Management</li>
@@ -56,16 +56,18 @@ export default function Experience() {
                   <li>International Conference on Blockchain Computing and Applications (BCCA)</li>
                 </ul>
               </div>
+               */}
+              <div><h2 className="font-semibold text-indigo-500 mt-6">Teaching Assistant</h2></div>
               <div className="mt-2">
                 Supervising bachelor and master student theses and academic student projects.
-                As of today, supervised a total of 8 bachelor and 6 master students.
+                As of today, supervised a eight Master (two ongoing) and eight Bachelor (one ongoing) students.
               </div>
               <div className="mt-2">
                 Teaching and providing support to a number of university courses, including:
                   <ul className="font-montserrat list-disc list-inside">
-                    <li>Certificate of Advanced Studies in Blockchain</li>
-                    <li>Protocols for Multimedia Communications</li>
-                    <li>Blockchains and Overlay Networks</li>
+                    <li>Certificate of Advanced Studies in Blockchain (CAS)</li>
+                    <li>Protocols for Multimedia Communications (PMMK)</li>
+                    <li>Blockchains and Overlay Networks (BCOLN)</li>
                   </ul>
               </div>
             </div>
@@ -93,18 +95,18 @@ export default function Experience() {
           <div className="col-span-2 md:col-span-1 mb-2">May 2021 - Oct 2023</div>
           <div className="col-span-2 md:col-span-1">
             <div className="grid col-span-2 md:col-span-1 gap-1">
-              <div><h2 className="font-semibold text-indigo-500">Casual Academic</h2></div>
+              <div><h2 className="font-semibold text-indigo-500">Teaching Assistant</h2></div>
               <div className="text-slate-500">University of New South Wales (Sydney, Australia)</div>
               <div className="mt-2">
                 Responsibilities include tutoring sessions, provide continuous help and
                 support to students, assignments and exams marking. Courses involved in:
                 <ul className="font-montserrat list-disc list-inside">
-                  <li>Database Systems</li>
-                  <li>Cryptocurrency and DLTs</li>
-                  <li>Data Structures & Algorithms</li>
-                  <li>Securing Fixed and Wireless Networks</li>
-                  <li>Software Architecture for Blockchain Applications</li>
-                  <li>Engineering Project Management</li>
+                  <li>Data Structures & Algorithms (COMP9024)</li>
+                  <li>Database Systems (COMP9311/ZZEN9311)</li>
+                  <li>Securing Fixed and Wireless Networks (COMP9337)</li>
+                  <li>Cryptocurrency and Distributed Ledger Technologies (COMP6451)</li>
+                  <li>Software Architecture for Blockchain Applications (COMP6452)</li>
+                  <li>Engineering Project Management (GSOE9820)</li>
                 </ul>
               </div>
             </div>
