@@ -11,9 +11,7 @@ export default function Header() {
         </a>
         <div className="hidden w-full md:block md:w-auto" id="navbar-default">
           <ul className="font-montserrat font-normal flex flex-row md:p-0 md:space-x-8 md:mt-0 md:border-0">
-            <li>
-              <a onClick={() => navigate('/works')} className="block py-1 px-3 text-current hover:text-gray-500 cursor-pointer">Works</a>
-            </li>
+
             <li>
               <a onClick={() => navigate('/publications')} className="block py-1 px-3 text-current hover:text-gray-500 cursor-pointer">Publications</a>
             </li>
@@ -27,8 +25,11 @@ export default function Header() {
               <a onClick={() => navigate('/services')} className="block py-1 px-3 text-current hover:text-gray-500 cursor-pointer">Services</a>
             </li>
             <li>
-              <a onClick={() => navigate('/about')} className="block py-1 px-3 text-current hover:text-gray-500 cursor-pointer">About</a>
+              <a onClick={() => navigate('/works')} className="block py-1 px-3 text-current hover:text-gray-500 cursor-pointer">Works</a>
             </li>
+            {/* <li>
+              <a onClick={() => navigate('/about')} className="block py-1 px-3 text-current hover:text-gray-500 cursor-pointer">About</a>
+            </li> */}
             {/* <li>
               <a onClick={() => navigate('/blog')} className="block py-1 px-3 text-current hover:text-gray-500 cursor-pointer">Blog</a>
             </li> */}
@@ -38,9 +39,6 @@ export default function Header() {
       <div className="md:hidden fixed inset-x-0 bottom-0 bg-white rounded-lg shadow m-4 dark:bg-gray-800">
         <div className="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
           <ul className="flex flex-wrap justify-center items-center text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
-            <li>
-              <a onClick={() => navigate('/works')} className="block py-1 px-2.5 text-current hover:text-gray-500">Works</a>
-            </li>
             <li>
               <a onClick={() => navigate('/publications')} className="block py-1 px-2.5 text-current hover:text-gray-500">Publications</a>
             </li>
@@ -54,8 +52,11 @@ export default function Header() {
               <a onClick={() => navigate('/services')} className="block py-1 px-2.5 text-current hover:text-gray-500">Services</a>
             </li>
             <li>
-              <a onClick={() => navigate('/about')} className="block py-1 px-2.5 text-current hover:text-gray-500">About</a>
+              <a onClick={() => navigate('/works')} className="block py-1 px-2.5 text-current hover:text-gray-500">Works</a>
             </li>
+            {/* <li>
+              <a onClick={() => navigate('/about')} className="block py-1 px-2.5 text-current hover:text-gray-500">About</a>
+            </li> */}
           </ul>
         </div>
       </div>
