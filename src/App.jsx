@@ -1,4 +1,4 @@
-import { Routes, Route, HashRouter, BrowserRouter } from "react-router-dom";
+import { Routes, Route, BrowserRouter } from "react-router-dom";
 import "./index.css"
 import Header from './components/Header';
 import Home from "./pages/Home";
@@ -10,12 +10,6 @@ import Experience from "./pages/Experience";
 // import Blog from "./pages/Blog";
 // import Teaching from "./pages/Teaching";
 import Services from "./pages/Services";
-
-const redirect = new URLSearchParams(window.location.search).get("redirect");
-
-if (redirect) {
-  window.history.replaceState(null, "", redirect);
-}
 
 export default function App() {
   return (
