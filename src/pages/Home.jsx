@@ -2,6 +2,7 @@ import { useNavigate } from 'react-router-dom';
 import photo from '../assets/profile_picture.png';
 import resume from '../assets/CV.pdf';
 import noAI from '../assets/no-ai-icon-08.png';
+import noAI2 from '../assets/noAI.png';
 
 export default function Home() {
   const navigate = useNavigate();
@@ -88,6 +89,10 @@ export default function Home() {
             </div>
 
             <img className="size-12 inline-block ml-1" src={noAI} alt="no AI use"/>
+            {/* <img className="inline-block ml-1 h-10" src={noAI2} alt="no AI use"/> */}
+            {/* <a href="https://ai-free.io" target="_blank" rel="noopener noreferrer" title="Learn more about the AI-Free label at ai-free.io">
+              <img src="https://ai-free.io/AI-free.io-TEXT.png" width="50" alt="ai-free.io text label" />
+            </a> */}
           </div>
       </div>
     </div>
