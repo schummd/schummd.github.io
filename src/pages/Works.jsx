@@ -4,15 +4,20 @@ import photography from '../assets/photography.png';
 import resume from '../assets/resume.png';
 import packetpuddle from '../assets/packetpuddle.png';
 import electrical from '../assets/electricalportfolio.png';
+import noAI from '../assets/no-ai-icon-08.png';
 
 export default function Works() {
   const navigate = useNavigate();
   return(
     <div className="flex flex-col items-center justify-center h-full w-screen">
       <div className="container w-4/5 md:w-3/5 my-28">
-        <h1 className="font-montserrat font-medium text-3xl mb-12">Works</h1>
 
-        <div className="grid md:gap-x-6 gap-y-1 font-montserrat">
+        <div className="flex flex-row items-center justify-between">
+          <h1 className="font-montserrat font-medium text-3xl">Works</h1>
+          <img className="size-12 inline-block ml-1" src={noAI} alt="no AI use"/>
+        </div>
+
+        <div className="grid md:gap-x-6 gap-y-1 font-montserrat mt-12">
 
           {/* Electrical Portfolio */}
           <div className="col-span-2 md:col-span-1 mb-2">
