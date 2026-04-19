@@ -11,9 +11,15 @@ import Experience from "./pages/Experience";
 // import Teaching from "./pages/Teaching";
 import Services from "./pages/Services";
 
+const redirect = new URLSearchParams(window.location.search).get("redirect");
+
+if (redirect) {
+  window.history.replaceState(null, "", redirect);
+}
+
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/schummd.github.io">
       <div className="flex flex-col w-full min-h-screen bg-gradient-to-t from-purple-200 to-neutral-50">
         <Header />
         <Routes>
