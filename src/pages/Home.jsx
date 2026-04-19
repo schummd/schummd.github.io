@@ -2,7 +2,7 @@ import { useNavigate } from 'react-router-dom';
 import photo from '../assets/profile_picture.png';
 import resume from '../assets/CV.pdf';
 import noAI from '../assets/no-ai-icon-08.png';
-import noAI2 from '../assets/noAI.png';
+// import noAI2 from '../assets/noAI.png';
 
 export default function Home() {
   const navigate = useNavigate();
