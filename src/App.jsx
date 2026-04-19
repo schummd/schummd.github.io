@@ -19,7 +19,7 @@ if (redirect) {
 
 export default function App() {
   return (
-    <BrowserRouter basename="/schummd.github.io">
+    <BrowserRouter>
       <div className="flex flex-col w-full min-h-screen bg-gradient-to-t from-purple-200 to-neutral-50">
         <Header />
         <Routes>
