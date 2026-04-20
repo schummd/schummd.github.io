@@ -18,9 +18,9 @@ export default function Header() {
             <li>
               <a onClick={() => navigate('/experience')} className="block py-1 px-3 text-current hover:text-gray-500 cursor-pointer">Experience</a>
             </li>
-            {/* <li>
-              <a onClick={() => navigate('/teaching')} className="block py-1 px-3 text-current hover:text-gray-500 cursor-pointer">Teaching</a>
-            </li> */}
+            <li>
+              <a onClick={() => navigate('/education')} className="block py-1 px-3 text-current hover:text-gray-500 cursor-pointer">Education</a>
+            </li>
             <li>
               <a onClick={() => navigate('/services')} className="block py-1 px-3 text-current hover:text-gray-500 cursor-pointer">Services</a>
             </li>
@@ -45,9 +45,9 @@ export default function Header() {
             <li>
               <a onClick={() => navigate('/experience')} className="block py-1 px-2.5 text-current hover:text-gray-500">Experience</a>
             </li>
-            {/* <li>
-              <a onClick={() => navigate('/teaching')} className="block py-1 px-2.5 text-current hover:text-gray-500">Teaching</a>
-            </li> */}
+            <li>
+              <a onClick={() => navigate('/education')} className="block py-1 px-2.5 text-current hover:text-gray-500">Education</a>
+            </li>
             <li>
               <a onClick={() => navigate('/services')} className="block py-1 px-2.5 text-current hover:text-gray-500">Services</a>
             </li>
