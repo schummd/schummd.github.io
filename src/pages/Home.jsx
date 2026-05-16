@@ -7,7 +7,7 @@ import noAI from '../assets/no-ai-icon-08.png';
 export default function Home() {
   const navigate = useNavigate();
   return(
-    <div className="flex flex-col items-center justify-center h-full w-screen md:h-screen">
+    <div className="flex flex-col items-center justify-center h-full w-screen md:h-screen dark:text-[#222]">
       <div className="container w-4/5 md:w-3/5 my-28">
         <div className="grid md:gap-x-6 gap-y-1 font-montserrat">
 

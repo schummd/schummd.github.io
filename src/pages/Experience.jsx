@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 export default function Experience() {
   const navigate = useNavigate();
   return(
-    <div className="flex flex-col items-center justify-center h-full w-screen">
+    <div className="flex flex-col items-center justify-center h-full w-screen dark:text-[#222]">
       <div className="container w-4/5 md:w-3/5 my-28">
         <h1 className="font-montserrat font-medium text-3xl my-12">Experience</h1>
 
@@ -27,6 +27,22 @@ export default function Experience() {
           </div>
           <div className="col-span-2 border-b border-stone-300 my-4"/> */}
 
+          {/* <div className="col-span-2 md:col-span-1 mb-2">Aug 2023 - Feb 2027</div>
+          <div className="col-span-2 md:col-span-1">
+            <div className="grid col-span-2 md:col-span-1 gap-1">
+              <div><h2 className="font-semibold text-indigo-500">Vising Researcher</h2></div>
+              <div className="text-slate-500"> (Sydney, Australia)</div>
+              <div className="mt-2">
+                Working on opportunities for blockchain technology in scientific
+                data management and provenance data tracking, focusing on data
+                storage with IPFS and Filecoin. Conducting literature review,
+                academic paper writing, workshop for university community,
+                developing smart contracts on Ethereum and software system with Filecoin.
+              </div>
+            </div>
+          </div>
+          <div className="col-span-2 border-b border-stone-300 my-4"/> */}
+
           {/* UZH */}
           <div className="col-span-2 md:col-span-1 mb-2">July 2023 - Current</div>
           <div className="col-span-2 md:col-span-1">
@@ -44,19 +60,6 @@ export default function Experience() {
               <div className="mt-2">
                 Planning, developing, and editing of academic <a onClick={() => navigate('/publications')} className='cursor-pointer'>publications</a>.
               </div>
-              {/* <div className="mt-2">
-                Peer reviewing publication submissions for:
-                <ul className="font-montserrat list-disc list-inside">
-                  <li>Journal of Information Processing & Management</li>
-                  <li>IEEE Transactions on Network and Service Management</li>
-                  <li>IEEE Journal of Social Computing</li>
-                  <li>IEEE Journal of Communications and Networks</li>
-                  <li>ACM Distributed Ledger Technologies Journal</li>
-                  <li>Elsiver Journal of Information Security and Application</li>
-                  <li>International Conference on Blockchain Computing and Applications (BCCA)</li>
-                </ul>
-              </div>
-               */}
               <div><h2 className="font-semibold text-indigo-500 mt-6">Teaching Assistant</h2></div>
               <div className="mt-2">
                 Supervising bachelor and master student theses and academic student projects.

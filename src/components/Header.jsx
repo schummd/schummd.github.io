@@ -5,7 +5,7 @@ export default function Header() {
   const navigate = useNavigate();
   return (
     <nav className="bg-transparent">
-      <div className="fixed w-screen flex flex-wrap items-center justify-between mx-auto p-8">
+      <div className="fixed w-screen flex flex-wrap items-center justify-between mx-auto p-8 dark:text-[#222]">
         <a onClick={() => navigate('/')} className="flex items-center space-x-3 rtl:space-x-reverse cursor-pointer">
           <img className="h-8" src={logo} alt="Schumm Logo" />
         </a>

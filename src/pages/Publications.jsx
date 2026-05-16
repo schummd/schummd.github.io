@@ -1,6 +1,6 @@
 export default function Publications() {
   return(
-    <div className="flex flex-col items-center justify-center h-full w-screen">
+    <div className="flex flex-col items-center justify-center h-full w-screen dark:text-[#222]">
       <div className="container w-4/5 md:w-3/5 my-28">
 
         <h2 className="font-montserrat font-medium text-3xl mb-12">Publications</h2>
@@ -9,20 +9,17 @@ export default function Publications() {
           <h2 className="font-montserrat font-medium text-xl mb-12">First Author</h2>
           <li>
             D. Schumm and B.Stiller,
-            <a href="" className="font-semibold text-indigo-500" target="_blank"> "Rethinking Self-Sovereign Identity Principles: An Actor-Oriented Categorization of Non-Functional Requirements,"</a>
-            <i> International Conference on Blockchain Research and Applications (BCRA)</i>,
+            <a href="" className="font-semibold text-indigo-500" target="_blank"> "Rethinking Self-Sovereign Identity Principles: An Actor-Oriented Categorization of Non-Functional Requirements,"</a>,
             2026, Under Review.
           </li>
           <li>
             D. Schumm and B.Stiller,
-            <a href="" className="font-semibold text-indigo-500" target="_blank"> "Functional Model for Decentralized and Self-Sovereign Identities,"</a>
-            <i> International Conference on Blockchain Research and Applications (BCRA)</i>,
+            <a href="" className="font-semibold text-indigo-500" target="_blank"> "Functional Model for Decentralized and Self-Sovereign Identities,"</a>,
             2026, Under Review.
           </li>
           <li>
             D. Schumm, V. Velrajah and B.Stiller,
-            <a href="" className="font-semibold text-indigo-500" target="_blank"> "No Matter of Decentralization: What is Important to Users in Decentralized and Self-Sovereign Identities?"</a>
-            <i> Information Processing and Management (IP&M)</i>,
+            <a href="" className="font-semibold text-indigo-500" target="_blank"> "No Matter of Decentralization: What is Important to Users in Decentralized and Self-Sovereign Identities?"</a>,
             2026, Under Review.
           </li>
           <li>
