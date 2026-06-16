@@ -10,7 +10,7 @@ export default function Publications() {
           <li>
             D. Schumm, V. Velrajah and B.Stiller,
             <a href="" className="font-semibold text-indigo-500" target="_blank"> "Identity on Whose Terms? Exploring User Priorities in Decentralized Identity?"</a>,
-            <i>International Conference on Blockchain Research and Applications (BCRA),</i>
+            <i>International Conference on Blockchain Research and Applications (BCRA), </i>
             Palermo, Italy, 2026.
           </li>
           <li>
