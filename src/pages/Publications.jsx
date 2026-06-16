@@ -8,19 +8,10 @@ export default function Publications() {
         <ul className="font-montserrat space-y-10 list-none list-inside">
           <h2 className="font-montserrat font-medium text-xl mb-12">First Author</h2>
           <li>
-            D. Schumm and B.Stiller,
-            <a href="" className="font-semibold text-indigo-500" target="_blank"> "Rethinking Self-Sovereign Identity Principles: An Actor-Oriented Categorization of Non-Functional Requirements,"</a>,
-            2026, Under Review.
-          </li>
-          <li>
-            D. Schumm and B.Stiller,
-            <a href="" className="font-semibold text-indigo-500" target="_blank"> "Functional Model for Decentralized and Self-Sovereign Identities,"</a>,
-            2026, Under Review.
-          </li>
-          <li>
             D. Schumm, V. Velrajah and B.Stiller,
-            <a href="" className="font-semibold text-indigo-500" target="_blank"> "No Matter of Decentralization: What is Important to Users in Decentralized and Self-Sovereign Identities?"</a>,
-            2026, Under Review.
+            <a href="" className="font-semibold text-indigo-500" target="_blank"> "Identity on Whose Terms? Exploring User Priorities in Decentralized Identity?"</a>,
+            <i>International Conference on Blockchain Research and Applications (BCRA),</i>
+            Palermo, Italy, 2026.
           </li>
           <li>
             D. Schumm, B. Rodrigues and B. Stiller,
@@ -110,6 +101,12 @@ export default function Publications() {
           </li>
 
           <h2 className="font-montserrat font-medium text-3xl mb-12">Talks</h2>
+          <li>
+            D. Schumm,
+            <a href="" className="font-semibold text-indigo-500" target="_blank"> "Identity on Whose Terms? Exploring User Priorities in Decentralized Identity?"</a>,
+            <i>International Conference on Blockchain Research and Applications (BCRA),</i>
+            Palermo, Italy, 15 July, 2026.
+          </li>
           <li>
             D. Schumm,
             <span className="font-semibold text-indigo-500"> "Designing Privacy Notices for Self-Sovereign Identity Applications,"</span>

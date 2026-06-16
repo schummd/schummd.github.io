@@ -27,22 +27,6 @@ export default function Experience() {
           </div>
           <div className="col-span-2 border-b border-stone-300 my-4"/> */}
 
-          {/* <div className="col-span-2 md:col-span-1 mb-2">Aug 2023 - Feb 2027</div>
-          <div className="col-span-2 md:col-span-1">
-            <div className="grid col-span-2 md:col-span-1 gap-1">
-              <div><h2 className="font-semibold text-indigo-500">Vising Researcher</h2></div>
-              <div className="text-slate-500"> (Sydney, Australia)</div>
-              <div className="mt-2">
-                Working on opportunities for blockchain technology in scientific
-                data management and provenance data tracking, focusing on data
-                storage with IPFS and Filecoin. Conducting literature review,
-                academic paper writing, workshop for university community,
-                developing smart contracts on Ethereum and software system with Filecoin.
-              </div>
-            </div>
-          </div>
-          <div className="col-span-2 border-b border-stone-300 my-4"/> */}
-
           {/* UZH */}
           <div className="col-span-2 md:col-span-1 mb-2">July 2023 - Current</div>
           <div className="col-span-2 md:col-span-1">
