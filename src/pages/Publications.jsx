@@ -103,8 +103,8 @@ export default function Publications() {
           <h2 className="font-montserrat font-medium text-3xl mb-12">Talks</h2>
           <li>
             D. Schumm,
-            <a href="" className="font-semibold text-indigo-500" target="_blank"> "Identity on Whose Terms? Exploring User Priorities in Decentralized Identity?"</a>,
-            <i>International Conference on Blockchain Research and Applications (BCRA),</i>
+            <a href="" className="font-semibold text-indigo-500" target="_blank"> "Identity on Whose Terms? Exploring User Priorities in Decentralized Identity?" </a>,
+            <i>International Conference on Blockchain Research and Applications (BCRA), </i>
             Palermo, Italy, 15 July, 2026.
           </li>
           <li>
