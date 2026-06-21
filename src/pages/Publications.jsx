@@ -57,6 +57,12 @@ export default function Publications() {
 
           <h2 className="font-montserrat font-medium text-xl mb-12">Other Author</h2>
           <li>
+            K. O. E. Müller, S. Saxer, D. Schumm, B. Rodrigues and B. Stiller,
+            <a href="" className="font-semibold text-indigo-500"> "Tracking Trackers: ML-Based Personal Tracker Detection in Crowded IoT Environments,"</a>
+            <i> IEEE Symposium on Computers and Communications (ISCC), </i>,
+            Vilamourna, Algarve, Portugal, 2026.
+          </li>
+          <li>
             B. Byers, P. Emmenegger, J. Hunhevicz, D. Schumm, F. Heisel, D. Hall and C. De Wolf,
             <a href="https://doi.org/10.1108/CI-02-2025-0074" className="font-semibold text-indigo-500 cursor-pointer" target="_blank"> "Decentralized Phygital Identifiers for Circular Construction,"</a>
             <i> Construction Innovation: Information Process Management </i>,
