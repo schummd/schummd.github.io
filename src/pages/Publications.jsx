@@ -59,7 +59,7 @@ export default function Publications() {
           <li>
             K. O. E. Müller, S. Saxer, D. Schumm, B. Rodrigues and B. Stiller,
             <a href="" className="font-semibold text-indigo-500"> "Tracking Trackers: ML-Based Personal Tracker Detection in Crowded IoT Environments,"</a>
-            <i> IEEE Symposium on Computers and Communications (ISCC), </i>,
+            <i> IEEE Symposium on Computers and Communications (ISCC)</i>,
             Vilamourna, Algarve, Portugal, 2026.
           </li>
           <li>
