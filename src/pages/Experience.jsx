@@ -44,7 +44,7 @@ export default function Experience() {
           <div className="col-span-2 md:col-span-1 mb-2">July 2023 - Current</div>
           <div className="col-span-2 md:col-span-1">
             <div className="grid col-span-2 md:col-span-1 gap-1">
-              <div><h2 className="font-semibold text-indigo-500">Research Assistant</h2></div>
+              <div><h2 className="font-semibold text-indigo-500">Researcher</h2></div>
               <div className="text-slate-500">University of Zürich (Zürich, Switzerland)</div>
               <div className="mt-2">
                 Working on a research project sponsored by the EU Horizon and in collaboration
@@ -77,7 +77,7 @@ export default function Experience() {
           <div className="col-span-2 md:col-span-1 mb-2">Oct 2022 - Dec 2022</div>
           <div className="col-span-2 md:col-span-1">
             <div className="grid col-span-2 md:col-span-1 gap-1">
-              <div><h2 className="font-semibold text-indigo-500">Research Assistant</h2></div>
+              <div><h2 className="font-semibold text-indigo-500">Researcher</h2></div>
               <div className="text-slate-500">University of New South Wales (Sydney, Australia)</div>
               <div className="mt-2">
                 Working on opportunities for blockchain technology in scientific
