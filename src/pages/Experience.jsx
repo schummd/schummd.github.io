@@ -27,6 +27,19 @@ export default function Experience() {
           </div>
           <div className="col-span-2 border-b border-stone-300 my-4"/> */}
 
+          {/* CMU */}
+          <div className="col-span-2 md:col-span-1 mb-2">August 2026 - Current</div>
+          <div className="col-span-2 md:col-span-1">
+            <div className="grid col-span-2 md:col-span-1 gap-1">
+              <div><h2 className="font-semibold text-indigo-500">Visiting Researcher</h2></div>
+              <div className="text-slate-500">Carnegie Mellon University (Pittsburgh, USA)</div>
+              <div className="mt-2">
+
+              </div>
+            </div>
+          </div>
+          <div className="col-span-2 border-b border-stone-300 my-4"/>
+
           {/* UZH */}
           <div className="col-span-2 md:col-span-1 mb-2">July 2023 - Current</div>
           <div className="col-span-2 md:col-span-1">
