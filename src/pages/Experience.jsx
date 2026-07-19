@@ -60,7 +60,7 @@ export default function Experience() {
               <div><h2 className="font-semibold text-indigo-500 mt-6">Teaching Assistant</h2></div>
               <div className="mt-2">
                 Supervising bachelor and master student theses and academic student projects.
-                As of today, supervised a eight Master (two ongoing) and eight Bachelor (one ongoing) students.
+                As of today, supervised a nine Master (three ongoing) and nine Bachelor (two ongoing) students.
               </div>
               <div className="mt-2">
                 Teaching and providing support to a number of university courses, including:
