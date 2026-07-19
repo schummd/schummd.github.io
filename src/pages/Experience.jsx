@@ -34,7 +34,7 @@ export default function Experience() {
               <div><h2 className="font-semibold text-indigo-500">Visiting Researcher</h2></div>
               <div className="text-slate-500">Carnegie Mellon University (Pittsburgh, USA)</div>
               <div className="mt-2">
-
+                The research visit is supported by UZH mobility fellowship.
               </div>
             </div>
           </div>
