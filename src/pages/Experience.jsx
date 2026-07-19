@@ -50,8 +50,7 @@ export default function Experience() {
                 Working on a research project sponsored by the EU Horizon and in collaboration
                 with companies such as STMicroelectronics, Collins Aerospace, and Trust Square.
                 The project is addressing cybersecurity for IoT-enables environments though a
-                multi-stakeholder sharing of threats and mitigations. Resulting in a project
-                <a href="https://artwork.id" className="cursor-pointer" target="_blank"> Artwork.ID</a>,
+                multi-stakeholder sharing of threats and mitigations. Resulting in a project Artwork.ID,
                 which offers capabilities to track artworks.
               </div>
               <div className="mt-2">
