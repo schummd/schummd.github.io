@@ -6,7 +6,7 @@ export default function Services () {
 
         <ul className="font-montserrat space-y-2">
           <li>ACM Distributed Ledger Technologies Journal</li>
-          <li>EEE World Forum on Public Safety Technology (WF-PST)</li>
+          <li>IEEE World Forum on Public Safety Technology (WF-PST)</li>
           <li>IEEE Workshop on Decentralized Ecosystems and Technologies for Emerging Computing Trends</li>
           <li>IEEE International Conference on Blockchain Computing and Applications</li>
           <li>IEEE Transactions on Network and Service Management</li>
