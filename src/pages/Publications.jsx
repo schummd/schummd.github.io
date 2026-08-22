@@ -8,6 +8,12 @@ export default function Publications() {
         <ul className="font-montserrat space-y-10 list-none list-inside">
           <h2 className="font-montserrat font-medium text-xl mb-12">First Author</h2>
           <li>
+            D. Schumm and B.Stiller,
+            <a href="" className="font-semibold text-indigo-500" target="_blank"> "Developing a Functional Model for Decentralized and Self-Sovereign Identity Systems," </a>
+            <i>8th International Conference on Blockchain Computing and Applications (BCCA), </i>
+            Barcelona, Spain, 2026.
+          </li>
+          <li>
             D. Schumm, V. Velrajah and B.Stiller,
             <a href="" className="font-semibold text-indigo-500" target="_blank"> "Identity on Whose Terms? Exploring User Priorities in Decentralized Identity?" </a>
             <i>International Conference on Blockchain Research and Applications (BCRA), </i>
