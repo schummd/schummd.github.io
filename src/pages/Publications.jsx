@@ -8,6 +8,12 @@ export default function Publications() {
         <ul className="font-montserrat space-y-10 list-none list-inside">
           <h2 className="font-montserrat font-medium text-xl mb-12">First Author</h2>
           <li>
+            D. Schumm, G. Stegmaier, C. E. von Rauscher, K.  O. E. Müller and B. Stiller,
+            <a href="" className="font-semibold text-indigo-500" target="_blank"> "Preserving Metadata Privacy in Decentralized Identity with Homomorphic Encryption," </a>
+            <i>IEEE International Workshop on Decentralized Ecosystems and Technologies for Emerging Computing Trends (DETECT 2026), </i>
+            Ortigia-Syracuse, Italy, 2026.
+          </li>
+          <li>
             D. Schumm and B.Stiller,
             <a href="" className="font-semibold text-indigo-500" target="_blank"> "Developing a Functional Model for Decentralized and Self-Sovereign Identity Systems," </a>
             <i>8th International Conference on Blockchain Computing and Applications (BCCA), </i>
