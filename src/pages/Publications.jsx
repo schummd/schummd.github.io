@@ -21,7 +21,7 @@ export default function Publications() {
           </li>
           <li>
             D. Schumm, V. Velrajah and B.Stiller,
-            <a href="" className="font-semibold text-indigo-500" target="_blank"> "Identity on Whose Terms? Exploring User Priorities in Decentralized Identity?" </a>
+            <a href="" className="font-semibold text-indigo-500" target="_blank"> "Identity on Whose Terms? Exploring User Priorities in Decentralized Identity," </a>
             <i>International Conference on Blockchain Research and Applications (BCRA), </i>
             Palermo, Italy, 2026.
           </li>
@@ -72,7 +72,7 @@ export default function Publications() {
             K. O. E. Müller, S. Saxer, D. Schumm, B. Rodrigues and B. Stiller,
             <a href="" className="font-semibold text-indigo-500"> "Tracking Trackers: ML-Based Personal Tracker Detection in Crowded IoT Environments,"</a>
             <i> IEEE Symposium on Computers and Communications (ISCC)</i>,
-            Vilamourna, Algarve, Portugal, 2026.
+            Vilamoura, Algarve, Portugal, 2026.
           </li>
           <li>
             B. Byers, P. Emmenegger, J. Hunhevicz, D. Schumm, F. Heisel, D. Hall and C. De Wolf,
