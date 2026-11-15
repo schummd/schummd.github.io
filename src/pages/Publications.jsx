@@ -8,10 +8,17 @@ export default function Publications() {
         <ul className="font-montserrat space-y-10 list-none list-inside">
           <h2 className="font-montserrat font-medium text-xl mb-12">First Author</h2>
           <li>
+            D. Schumm, V. Velrajah and B.Stiller,
+            <a href="https://doi.org/10.1145/3862594" className="font-semibold text-indigo-500" target="_blank"> "No Matter of Decentralization: What is Important to Users in Decentralized and Self-Sovereign Identities?" </a>
+            <i>ACM Distributed Ledger Technologies: Research and Practice (ACM DLT), </i>
+            2026.
+          </li>
+          <li>
             D. Schumm, G. Stegmaier, C. E. von Rauscher, K.  O. E. Müller and B. Stiller,
             <a href="" className="font-semibold text-indigo-500" target="_blank"> "Preserving Metadata Privacy in Decentralized Identity with Homomorphic Encryption," </a>
             <i>IEEE International Workshop on Decentralized Ecosystems and Technologies for Emerging Computing Trends (DETECT 2026), </i>
             Ortigia-Syracuse, Italy, 2026.
+            <b> Best Paper Award.</b>
           </li>
           <li>
             D. Schumm and B.Stiller,
@@ -27,9 +34,9 @@ export default function Publications() {
           </li>
           <li>
             D. Schumm, B. Rodrigues and B. Stiller,
-            <a href="" className="font-semibold text-indigo-500" target="_blank"> "Digital Identity and Blockchain: A Comprehensive Overview of Approaches,"</a>
+            <a href="https://doi.org/10.1515/9783111329734-006" className="font-semibold text-indigo-500" target="_blank"> "Digital Identity and Blockchain: A Comprehensive Overview of Approaches,"</a>
             <span> in <i>Blockchain and Society Handbook</i>, John Flood and Lachlan Robb,
-            De Gruyter, 2026. Accepted/In Press.</span>
+            De Gruyter, 2026.</span>
           </li>
           <li>
             D. Schumm, K. O. E. Müller and B.Stiller,
