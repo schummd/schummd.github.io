@@ -1,4 +1,4 @@
-import TrophyIcon from '../assets/trophy';
+// import TrophyIcon from '../assets/trophy';
 
 export default function Publications() {
   return(
@@ -16,7 +16,7 @@ export default function Publications() {
             2026.
           </li>
           <li>
-            <TrophyIcon/>
+            {/* <TrophyIcon/> */}
             D. Schumm, G. Stegmaier, C. E. von Rauscher, K.  O. E. Müller and B. Stiller,
             <a href="" className="font-semibold text-indigo-500" target="_blank"> "Preserving Metadata Privacy in Decentralized Identity with Homomorphic Encryption," </a>
             <i>IEEE International Workshop on Decentralized Ecosystems and Technologies for Emerging Computing Trends (DETECT 2026), </i>
