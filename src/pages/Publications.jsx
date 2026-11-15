@@ -21,9 +21,7 @@ export default function Publications() {
             <a href="" className="font-semibold text-indigo-500" target="_blank"> "Preserving Metadata Privacy in Decentralized Identity with Homomorphic Encryption," </a>
             <i>IEEE International Workshop on Decentralized Ecosystems and Technologies for Emerging Computing Trends (DETECT 2026), </i>
             Ortigia-Syracuse, Italy, 2026.
-            <span className="font-semibold text-indigo-500">
-               Best Paper Award.
-            </span>
+            <span className="font-semibold text-indigo-500"> Best Paper Award.</span>
           </li>
           <li>
             D. Schumm and B.Stiller,
